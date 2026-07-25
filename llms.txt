@@ -1,0 +1,13 @@
+# Malaysian CTF Tracker
+
+> A historical intelligence and metrics platform tracking cybersecurity Capture The Flag (CTF) competitions, prize pools, organizer rankings, and multi-edition winners across Malaysia from 2002 to 2030.
+
+## Core Resources
+- [Data Source (JSON)](./data.json): The primary structured database containing all organizer records, historical editions, dates, locations, prize pools (MYR), and winners.
+- [Frontend Interface](./index.html): Interactive visualization dashboards including Event Matrices, Heatmaps, and Chart.js analytics.
+
+## Data Schema Overview
+The `data.json` file is structured as an array of organizers. Each organizer object contains:
+- `name`: Name of the competition/organizer (e.g., "I-Hack", "WGMY").
+- `url`: Official website link.
+- `years`: A key-value map where the key is the year (e.g., "2024") and the value is either an object containing challenge metadata (`link`, `date`, `location`, `prize_pool`, `winners[]`) or a boolean status.
