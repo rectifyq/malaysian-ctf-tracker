@@ -34,7 +34,7 @@ All event data, historical editions, dates, prize pools, and winner rankings are
 2. Edit data.json to add new events, update upcoming 2026+ editions, or correct metadata.
 3. Ensure your JSON structure aligns with the existing schema (organizers array containing nested year objects/links/winners).
 4. Test locally to ensure the frontend parses your updates correctly without breaking charts or modals.
-5. Open a Pull Request detailing the updates made.
+5. Open a Pull Request detailing the updates made with references in the commit description.
 
 ## License
 This project is open-source and available under the MIT License.
