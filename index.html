@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malaysian CTF Tracker</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: { extend: { fontFamily: { sans: ['Inter', 'sans-serif'] }, colors: { brand: { 400: '#34d399', 500: '#10b981', 600: '#059669', 700: '#047857', 900: '#064e3b' } } } }
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+    .heatmap-scroll::-webkit-scrollbar { height: 8px; }
+    .heatmap-scroll::-webkit-scrollbar-track { background: #1f2937; border-radius: 4px; }
+    .heatmap-scroll::-webkit-scrollbar-thumb { background: #4b5563; border-radius: 4px; }
+    .heatmap-scroll::-webkit-scrollbar-thumb:hover { background: #6b7280; }
+    
+    .cell { width: 22px; height: 22px; border-radius: 4px; transition: all 0.2s ease; cursor: pointer; }
+    .cell-empty { background-color: #374151; cursor: default; }
+    .cell-active:hover { transform: scale(1.15); box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); z-index: 30; position: relative;}
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-100 antialiased p-4 md:p-8 min-h-screen">
+
+  <div class="max-w-6xl mx-auto space-y-8">
+    
+    <!-- Header -->
+    <header class="border-b border-gray-800 pb-6 flex flex-col md:flex-row md:items-center justify-between">
+      <div>
+        <h1 class="text-3xl font-bold text-white tracking-tight">Malaysian CTF Tracker</h1>
+        <p class="text-gray-400 mt-2 text-sm md:text-base">Historical data and metrics of local cybersecurity challenge events.</p>
+      </div>
+      <div class="mt-4 md:mt-0 flex flex-wrap gap-3 items-center">
+        <div class="px-4 py-2 bg-gray-800 rounded-lg border border-gray-700 text-sm font-medium">
+          Events: <span id="totalEventsCounter" class="text-brand-400 font-bold">0</span>
+        </div>
+        <div class="px-4 py-2 bg-gray-800 rounded-lg border border-gray-700 text-sm font-medium">
+          Total Prize Pool: <span id="totalPrizeCounter" class="text-brand-400 font-bold">RM 0</span>
+        </div>
+        <a href="./data.json" download="data.json" class="px-4 py-2 bg-gray-800 hover:bg-gray-700 text-gray-300 border border-gray-700 rounded-lg text-sm font-medium flex items-center gap-2 transition-colors cursor-pointer">
+          <svg class="w-4 h-4 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+          Download JSON
+        </a>
+      </div>
+    </header>
+
+    <!-- Event Matrix -->
+    <section class="bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-700">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
+        <h2 class="text-xl font-semibold text-white">Event Matrix (2002 - 2030)</h2>
+      </div>
+      <div class="heatmap-scroll overflow-x-auto pb-4">
+        <table class="min-w-max border-separate" style="border-spacing: 4px 4px;">
+          <thead id="heatmapHead"></thead>
+          <tbody id="heatmap-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Monthly Event Distribution Heatmap -->
+    <section class="bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-700">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
+        <div>
+          <h2 class="text-xl font-semibold text-white">Monthly Event Cadence</h2>
+          <p class="text-gray-400 text-xs md:text-sm mt-1">Heatmap identifying historical peak competition months. Click any to view.</p>
+        </div>
+      </div>
+      <div id="monthlyGrid" class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mt-4">
+        <!-- Dynamically injected -->
+      </div>
+    </section>
+
+    <!-- Stacked Prize Pool Chart -->
+    <section class="bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-700">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
+        <h3 class="text-lg font-semibold text-white">Prize Pool by Year (MYR)</h3>
+        <span class="text-xs text-brand-400 mt-1 md:mt-0 font-medium">Click a legend item to isolate. Hover bars for total sums.</span>
+      </div>
+      <div class="relative h-72 w-full">
+        <canvas id="prizeBarChart"></canvas>
+      </div>
+    </section>
+
+    <!-- Organizers Overview & Top Organizers -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-700">
+        <h3 class="text-lg font-semibold text-white mb-4">Organizer Financial Breakdown</h3>
+        <div class="overflow-y-auto max-h-64 pr-2 custom-scroll">
+          <ul id="organizerPrizeList" class="space-y-3"></ul>
+        </div>
+      </div>
+      <div class="bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-700">
+        <h3 class="text-lg font-semibold text-white mb-4">Top Event Organizers</h3>
+        <div class="relative h-60 w-full flex justify-center">
+          <canvas id="eventsDoughnutChart"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hall of Fame -->
+    <section class="bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-700">
+      <h3 class="text-lg font-semibold text-white mb-2">Hall of Fame (Multi-CTF Podium Winners)</h3>
+      <p class="text-gray-400 text-xs md:text-sm mb-4">Tracks teams and individuals who have won Top 3 or Top 5 across multiple competition editions.</p>
+      <div class="overflow-y-auto max-h-72 pr-2 custom-scroll">
+        <ul id="hallOfFameList" class="grid grid-cols-1 md:grid-cols-2 gap-3"></ul>
+      </div>
+    </section>
+	
+	<!-- Winners Word Bubble -->
+    <section class="bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-700">
+      <h3 class="text-lg font-semibold text-white mb-2">Podium Winners</h3>
+      <p class="text-gray-400 text-xs md:text-sm mb-4">Highlighted teams denote multiple overall victories.</p>
+      <div id="winnerBubbles" class="flex flex-wrap gap-2 max-h-60 overflow-y-auto custom-scroll">
+        <!-- Dynamically injected -->
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Modal -->
+  <div id="eventModal" onclick="handleBackdropClick(event)" class="fixed inset-0 z-50 hidden bg-black bg-opacity-70 flex items-center justify-center p-4 transition-opacity backdrop-blur-sm">
+    <div class="bg-gray-800 border border-gray-700 rounded-xl shadow-2xl max-w-md w-full p-6 relative">
+      <button onclick="closeModal()" class="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+      </button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script>
+    const startYear = 2002;
+    const endYear = 2030;
+    const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    
+    const palette = [
+      '#10b981', '#3b82f6', '#f59e0b', '#ec4899', '#8b5cf6', 
+      '#06b6d4', '#f97316', '#84cc16', '#a855f7', '#64748b',
+      '#e11d48', '#14b8a6', '#f43f5e', '#38bdf8'
+    ];
+    
+    let globalEventsData = {}; 
+    let monthlyEventsMap = {}; 
+
+    async function initDashboard() {
+      try {
+        const response = await fetch('./data.json');
+        if (!response.ok) throw new Error('Network error');
+        const eventsData = await response.json();
+        processAndRender(eventsData);
+      } catch (error) {
+        console.error('Failed to load JSON event data:', error);
+      }
+    }
+
+    function processAndRender(eventsData) {
+      const thead = document.getElementById('heatmapHead');
+      const tbody = document.getElementById('heatmap-body');
+      
+      let trHead = document.createElement('tr');
+      trHead.innerHTML = `<th class="sticky left-0 z-20 bg-gray-800 text-left text-xs font-semibold text-gray-400 pb-2 pr-4 w-28 border-b border-gray-700 border-r border-gray-700/50">Events</th>`;
+      for (let y = startYear; y <= endYear; y++) {
+        trHead.innerHTML += `<th class="pb-2 border-b border-gray-700"><div class="writing-vertical text-xs font-medium text-gray-400 rotate-180" style="writing-mode: vertical-rl;">${y}</div></th>`;
+      }
+      thead.appendChild(trHead);
+
+      let totalEvents = 0, overallPrize = 0;
+      const organizerTotals = [];
+      const winnerRecords = {}; 
+      const winnerCounts = {};
+      
+      for (let m = 0; m < 12; m++) monthlyEventsMap[m] = [];
+
+      eventsData.forEach((event, eIndex) => {
+        const orgColor = palette[eIndex % palette.length];
+        let tr = document.createElement('tr');
+        
+        tr.innerHTML = `<td class="sticky left-0 z-10 bg-gray-800 text-sm font-medium pr-4 py-1 whitespace-nowrap border-r border-gray-700/50">
+          <a href="${event.url}" target="_blank" rel="noopener" class="text-gray-200 hover:text-brand-400 hover:underline transition-colors">${event.name} ↗</a>
+        </td>`;
+
+        let orgEventCount = 0;
+        let orgPrizeSum = 0;
+        const orgYearPrizes = {};
+        for (let y = startYear; y <= endYear; y++) orgYearPrizes[y] = 0;
+
+        globalEventsData[eIndex] = { name: event.name, url: event.url, years: {} };
+
+        for (let y = startYear; y <= endYear; y++) {
+          let td = document.createElement('td');
+          
+          if (event.years && event.years[y]) {
+            td.className = 'cell cell-active';
+            td.style.backgroundColor = orgColor;
+            orgEventCount++;
+            totalEvents++;
+
+            let meta = event.years[y];
+            let isObj = typeof meta === 'object' && meta !== null;
+            
+            let eLink = isObj && meta.link ? meta.link : (typeof meta === 'string' ? meta : `https://www.google.com/search?q=${encodeURIComponent(event.name + ' CTF Malaysia ' + y)}`);
+            let eDate = isObj && meta.date ? meta.date : 'N/A';
+            let eLoc = isObj && meta.location ? meta.location : 'N/A';
+            let ePrize = isObj && meta.prize_pool ? meta.prize_pool : 0;
+            let eWin = isObj && meta.winners ? meta.winners : [];
+            
+            if (ePrize > 0) {
+              orgYearPrizes[y] += ePrize;
+              orgPrizeSum += ePrize;
+              overallPrize += ePrize;
+            }
+
+            eWin.forEach(w => { 
+              if (!winnerRecords[w]) winnerRecords[w] = [];
+              winnerRecords[w].push({ eventName: event.name, year: y });
+              winnerCounts[w] = (winnerCounts[w] || 0) + 1;
+            });
+
+            if (eDate !== 'N/A') {
+              monthNames.forEach((mName, mIdx) => {
+                if (eDate.toLowerCase().includes(mName.toLowerCase()) || eDate.toLowerCase().includes(mName.substring(0, 3).toLowerCase())) {
+                  monthlyEventsMap[mIdx].push({ name: event.name, year: y, date: eDate, link: eLink });
+                }
+              });
+            }
+
+            globalEventsData[eIndex].years[y] = { link: eLink, date: eDate, location: eLoc, prize: ePrize, winners: eWin };
+            td.onclick = () => openModal('event', { eIndex, year: y });
+          } else {
+            td.className = 'cell cell-empty';
+          }
+          tr.appendChild(td);
+        }
+
+        organizerTotals.push({ name: event.name, count: orgEventCount, prizeTotal: orgPrizeSum, prizesByYear: orgYearPrizes, color: orgColor });
+        tbody.appendChild(tr);
+      });
+
+      document.getElementById('totalEventsCounter').innerText = totalEvents;
+      document.getElementById('totalPrizeCounter').innerText = `RM ${overallPrize.toLocaleString()}`;
+
+      renderMonthlyHeatmap();
+      renderWinnerBubbles(winnerCounts);
+      renderStackedPrizeChart(organizerTotals);
+      renderOrganizerPrizes(organizerTotals);
+      renderTopOrganizersDoughnut(organizerTotals);
+      renderHallOfFame(winnerRecords);
+    }
+
+    // --- Heatmap Cadence ---
+    function renderMonthlyHeatmap() {
+      const container = document.getElementById('monthlyGrid');
+      container.innerHTML = '';
+
+      monthNames.forEach((month, idx) => {
+        const count = monthlyEventsMap[idx].length;
+        
+        let bgClass = 'bg-gray-800 border-gray-700/60 text-gray-400';
+        if (count === 1) bgClass = 'bg-brand-900 border-brand-800/50 text-brand-100';
+        else if (count === 2) bgClass = 'bg-brand-700 border-brand-600/50 text-white';
+        else if (count >= 3) bgClass = 'bg-brand-500 border-brand-400 text-white shadow-[0_0_15px_rgba(16,185,129,0.25)]';
+
+        const card = document.createElement('div');
+        card.className = `rounded-xl p-4 flex flex-col items-center justify-center cursor-pointer transition-transform duration-200 border hover:-translate-y-1 ${bgClass}`;
+        card.onclick = () => openModal('month', { monthIdx: idx });
+
+        card.innerHTML = `
+          <span class="text-sm font-bold uppercase tracking-widest">${month.substring(0,3)}</span>
+          <span class="text-2xl font-black mt-1 ${count === 0 ? 'opacity-20' : 'opacity-100'}">${count}</span>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    // --- Winner Bubbles ---
+    function renderWinnerBubbles(winnerCounts) {
+      const container = document.getElementById('winnerBubbles');
+      const sorted = Object.entries(winnerCounts).sort((a,b) => b[1] - a[1]);
+      
+      container.innerHTML = sorted.map(([w, c]) => {
+        const isMulti = c > 1;
+        const style = isMulti ? 'bg-brand-600/20 text-brand-400 border-brand-500/50 font-semibold' : 'bg-gray-700 text-gray-300 border-gray-600';
+        return `<span class="px-3 py-1 rounded-full text-xs sm:text-sm border ${style}">
+          ${w} ${isMulti ? `<span class="ml-1 opacity-70 text-xs px-1 bg-brand-900 rounded">x${c}</span>` : ''}
+        </span>`;
+      }).join('');
+    }
+
+    // --- Chart.js: Stacked with Custom Isolation & Total Line ---
+    function renderStackedPrizeChart(organizerTotals) {
+      Chart.defaults.color = '#9ca3af';
+      Chart.defaults.font.family = "'Inter', sans-serif";
+
+      const labels = [];
+      for (let y = startYear; y <= endYear; y++) labels.push(y);
+
+      const datasets = organizerTotals.map(org => ({
+        label: org.name,
+        data: labels.map(y => org.prizesByYear[y]),
+        backgroundColor: org.color,
+        borderRadius: 2
+      }));
+
+      // Plugin to draw horizontal line on hover
+      const hoverLinePlugin = {
+        id: 'hoverLine',
+        afterDraw(chart) {
+          if (chart.tooltip?._active?.length) {
+            let activePoint = chart.tooltip._active[0];
+            let ctx = chart.ctx;
+            let dataIndex = activePoint.index;
+            
+            // Determine if multiple datasets are actively visible
+            let visibleDatasets = chart.data.datasets.filter((ds, i) => !chart.getDatasetMeta(i).hidden);
+            
+            if (visibleDatasets.length > 1) {
+              let total = 0;
+              visibleDatasets.forEach(ds => { total += ds.data[dataIndex] || 0; });
+              
+              if (total > 0) {
+                let y = chart.scales.y.getPixelForValue(total);
+                ctx.save();
+                ctx.beginPath();
+                ctx.moveTo(chart.chartArea.left, y);
+                ctx.lineTo(chart.chartArea.right, y);
+                ctx.lineWidth = 2;
+                ctx.strokeStyle = '#34d399'; // Brand color
+                ctx.setLineDash([5, 5]);
+                ctx.stroke();
+                
+                // Draw Label
+                ctx.fillStyle = '#34d399';
+                ctx.font = 'bold 12px Inter';
+                ctx.fillText('Total: RM ' + total.toLocaleString(), chart.chartArea.left + 10, y - 10);
+                ctx.restore();
+              }
+            }
+          }
+        }
+      };
+
+      new Chart(document.getElementById('prizeBarChart').getContext('2d'), {
+        type: 'bar',
+        data: { labels, datasets },
+        plugins: [hoverLinePlugin],
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { mode: 'nearest', axis: 'x', intersect: true },
+          plugins: {
+            legend: { 
+              position: 'top', 
+              labels: { boxWidth: 12, padding: 15 },
+              onClick: function(e, legendItem, legend) {
+                const index = legendItem.datasetIndex;
+                const ci = legend.chart;
+                const metaList = ci.data.datasets.map((ds, i) => ci.getDatasetMeta(i));
+                
+                // If only this dataset is currently visible (isolated state), clicking it again resets (shows all)
+                const isOnlyVisible = metaList.every((meta, i) => (i === index) ? !meta.hidden : meta.hidden);
+                
+                if (isOnlyVisible) {
+                  metaList.forEach(meta => meta.hidden = false); // Show all
+                } else {
+                  metaList.forEach((meta, i) => meta.hidden = i !== index); // Isolate clicked
+                }
+                ci.update();
+              }
+            },
+            tooltip: { callbacks: { label: (ctx) => `${ctx.dataset.label}: RM ${ctx.raw.toLocaleString()}` } }
+          },
+          scales: {
+            x: { stacked: true, grid: { display: false } },
+            y: { stacked: true, grid: { color: '#374151' }, ticks: { callback: (v) => `RM ${v}` } }
+          }
+        }
+      });
+    }
+
+    // --- Sub-Renders ---
+    function renderOrganizerPrizes(organizerTotals) {
+      const list = document.getElementById('organizerPrizeList');
+      const sorted = [...organizerTotals].sort((a, b) => b.prizeTotal - a.prizeTotal);
+      list.innerHTML = sorted.map(org => `
+        <li class="flex justify-between items-center bg-gray-900 px-4 py-2.5 rounded-lg border border-gray-700/80">
+          <div class="flex items-center space-x-3">
+            <span class="w-3 h-3 rounded-full" style="background-color: ${org.color}"></span>
+            <span class="font-medium text-gray-200 text-sm">${org.name}</span>
+          </div>
+          <span class="text-brand-400 font-bold text-sm">RM ${org.prizeTotal.toLocaleString()}</span>
+        </li>
+      `).join('');
+    }
+
+    function renderTopOrganizersDoughnut(organizerTotals) {
+      const sorted = [...organizerTotals].sort((a, b) => b.count - a.count);
+      const topOrgs = sorted.slice(0, 6);
+      new Chart(document.getElementById('eventsDoughnutChart').getContext('2d'), {
+        type: 'doughnut',
+        data: {
+          labels: topOrgs.map(o => o.name),
+          datasets: [{ data: topOrgs.map(o => o.count), backgroundColor: topOrgs.map(o => o.color), borderWidth: 0 }]
+        },
+        options: { responsive: true, maintainAspectRatio: false, cutout: '70%', plugins: { legend: { position: 'right' } } }
+      });
+    }
+
+    function renderHallOfFame(winnerRecords) {
+      const list = document.getElementById('hallOfFameList');
+      const repeatWinners = Object.entries(winnerRecords).filter(([_, recs]) => recs.length > 1).sort((a, b) => b[1].length - a[1].length);
+      if (repeatWinners.length === 0) return list.innerHTML = `<li class="text-gray-400 text-sm col-span-2">No multi-CTF winners yet.</li>`;
+      
+      list.innerHTML = repeatWinners.map(([name, recs]) => `
+        <li class="bg-gray-900 p-3.5 rounded-lg border border-gray-700/80 flex flex-col justify-between space-y-2">
+          <div class="flex justify-between items-center">
+            <span class="font-bold text-white text-sm">${name}</span>
+            <span class="bg-brand-500/20 text-brand-400 text-xs font-bold px-2 py-0.5 rounded-full border border-brand-500/30">${recs.length} Titles</span>
+          </div>
+          <div class="text-xs text-gray-400">
+            <span class="text-gray-500 font-medium">Won:</span> ${recs.map(r => `${r.eventName} (${r.year})`).join(', ')}
+          </div>
+        </li>`).join('');
+    }
+
+    // --- Modal Logic ---
+    function openModal(type, payload) {
+      const modal = document.getElementById('eventModal');
+      const container = document.getElementById('modalContent');
+
+      if (type === 'event') {
+        const data = globalEventsData[payload.eIndex];
+        const meta = data.years[payload.year];
+        container.innerHTML = `
+          <h3 class="text-2xl font-bold text-white mb-1">${data.name}</h3>
+          <p class="text-brand-400 font-medium mb-5 text-sm">Edition ${payload.year}</p>
+          <div class="space-y-3 text-sm">
+            <div class="flex border-b border-gray-700/80 pb-2"><span class="text-gray-400 w-24">Date:</span><span class="text-gray-100 font-medium">${meta.date}</span></div>
+            <div class="flex border-b border-gray-700/80 pb-2"><span class="text-gray-400 w-24">Location:</span><span class="text-gray-100 font-medium">${meta.location}</span></div>
+            <div class="flex border-b border-gray-700/80 pb-2"><span class="text-gray-400 w-24">Prize Pool:</span><span class="text-brand-400 font-bold">${meta.prize > 0 ? `RM ${meta.prize.toLocaleString()}` : 'Data Unavailable'}</span></div>
+            <div>
+              <span class="text-gray-400 block mb-2">Winners / Top Ranking:</span>
+              <ul class="list-disc list-inside text-gray-200 bg-gray-900 p-3 rounded-lg border border-gray-700 text-xs space-y-1">
+                ${meta.winners.length > 0 ? meta.winners.map(w => `<li>${w}</li>`).join('') : '<li class="list-none text-gray-500 italic">Data Unavailable</li>'}
+              </ul>
+            </div>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-700/80 text-center">
+            <a href="${meta.link}" target="_blank" rel="noopener" class="inline-block bg-brand-600 hover:bg-brand-500 text-white text-sm font-medium py-2 px-5 rounded-lg transition-colors">Visit Official Source ↗</a>
+          </div>`;
+      } else if (type === 'month') {
+        const monthName = monthNames[payload.monthIdx];
+        const events = monthlyEventsMap[payload.monthIdx];
+        container.innerHTML = `
+          <h3 class="text-xl font-bold text-white mb-1">${monthName} Events</h3>
+          <div class="max-h-60 overflow-y-auto space-y-2 pr-1 mt-4 custom-scroll">
+            ${events.length > 0 ? events.map(e => `
+              <div class="bg-gray-900 p-3 rounded-lg border border-gray-700 flex justify-between items-center">
+                <div><div class="text-sm font-bold text-white">${e.name} (${e.year})</div><div class="text-xs text-gray-400">${e.date}</div></div>
+                <a href="${e.link}" target="_blank" class="text-xs text-brand-400 hover:underline">Link ↗</a>
+              </div>`).join('') : '<div class="text-gray-500 text-sm text-center py-4">No events recorded.</div>'}
+          </div>`;
+      }
+      modal.classList.remove('hidden');
+    }
+
+    function closeModal() { document.getElementById('eventModal').classList.add('hidden'); }
+    function handleBackdropClick(e) { if (e.target.id === 'eventModal') closeModal(); }
+    document.addEventListener('DOMContentLoaded', initDashboard);
+  </script>
+</body>
+</html>
