@@ -1,6 +1,6 @@
 # Malaysian CTF Tracker
 
-A community-driven, historical intelligence platform tracking cybersecurity Capture The Flag (CTF) competitions, prize pools, organizer metrics, and hall-of-fame rankings across Malaysia.
+A platform tracking cybersecurity Capture The Flag (CTF) competitions, prize pools, organizer metrics, and hall-of-fame rankings across Malaysia.
 
 ## Features
 - **Event Matrix (2002–2030):** Interactive visualization of historical and upcoming local CTF editions.
