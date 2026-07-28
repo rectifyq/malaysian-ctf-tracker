@@ -11,18 +11,6 @@
                 "winners": [
                     "spoonfork"
                 ]
-            },
-            "2015": {
-                "link": "https://web.archive.org/web/20141115182022/http://utp-hax.utp.edu.my/",
-                "date": "13-14 November 2015",
-                "location": "UTP",
-                "prize_pool": 15000
-            },
-            "2016": {
-                "link": "https://web.archive.org/web/20170203043952/https://cybersocks.org/malaysia",
-                "date": "December 2016",
-                "location": "UUM",
-                "prize_pool": 15000
             }
         }
     },
