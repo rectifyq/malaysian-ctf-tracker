@@ -1,4 +1,134 @@
 [
+	{
+        "name": "INFOSEC",
+        "url": "https://web.archive.org/web/20260000000000*/https://MNCC.COM.MY",
+        "years": {
+            "2002": {
+                "link": "https://web.archive.org/web/20021010072920/http://www.mncc.com.my/infosec2002/ctf.html",
+                "date": "24-25 September 2002",
+                "location": "IMATEC, Bukit Kiara, KL",
+                "prize_pool": 2000,
+                "winners": [
+                    "spoonfork"
+                ]
+            },
+            "2015": {
+                "link": "https://web.archive.org/web/20141115182022/http://utp-hax.utp.edu.my/",
+                "date": "13-14 November 2015",
+                "location": "UTP",
+                "prize_pool": 15000
+            },
+            "2016": {
+                "link": "https://web.archive.org/web/20170203043952/https://cybersocks.org/malaysia",
+                "date": "December 2016",
+                "location": "UUM",
+                "prize_pool": 15000
+            }
+        }
+    },
+    {
+        "name": "HITB",
+        "url": "https://conference.hitb.org/",
+        "years": {
+			"2002": {
+                "link": "https://web.archive.org/web/20031212023511/http://conference.hackinthebox.org/ctf.php"
+            },
+            "2003": {
+                "link": "https://web.archive.org/web/20040403173407/http://conference.hackinthebox.org/index.php",
+                "date": "12 December 2003",
+                "location": "Mid Valley Exhibition Center, KL",
+                "winners": [
+                    "MoS (Malaysia)",
+                    "Digital Trancendence Force (Malaysia)",
+                    "Dot Slash Jack (Malaysia)",
+                    "Blackhawkdown (India)"
+                ]
+            },
+			"2004": {
+                "link": "https://web.archive.org/web/20041025081443/http://conference.hackinthebox.org/index.php",
+                "date": "6-7 October 2004",
+                "location": "The Westin Kuala Lumpur, KL",
+                "winners": [
+                    "MoS (Malaysia)",
+                    "Dot Slash Jack (Malaysia)",
+                    "1st (Indonesia)",
+                    "OCP (Malaysia)",
+                    "Footmen (Brunei)"
+                ]
+            },
+			"2005": {
+                "link": "https://web.archive.org/web/20051208084946/http://conference.hackinthebox.org/hitbsecconf2005kl/index.php?cat=5",
+                "date": "28-29 September 2005",
+                "location": "The Westin Kuala Lumpur, KL",
+				"prize_pool": 3800
+            },
+			"2006": {
+                "link": "https://web.archive.org/web/20061213193010/http://conference.hackinthebox.org/hitbsecconf2006kl/",
+                "date": "18-21 September 2006",
+                "location": "The Westin Kuala Lumpur, KL",
+				"prize_pool": 6000
+            },			
+			"2007": {
+                "link": "https://web.archive.org/web/20071009012332/http://conference.hitb.org/hitbsecconf2007kl/?page_id=61",
+                "date": "3-6 September 2007",
+                "location": "Hilton KL Sentral, KL",
+				"prize_pool": 20000
+            },
+			"2008": {
+                "link": "https://web.archive.org/web/20240523055528/https://archive.conference.hitb.org/hitbsecconf2008kl/index.html_page_id=61.html",
+                "date": "27-30 October 2008",
+                "location": "The Crowne Plaza Mutiara, KL",
+				"prize_pool": 6000
+            },
+			"2009": {
+                "link": "https://web.archive.org/web/20231012090725/https://archive.conference.hitb.org/hitbsecconf2009kl/index.html_page_id=41.html",
+                "date": "5-8 October 2009",
+                "location": "The Crowne Plaza Mutiara, KL"
+            },
+			"2010": {
+                "link": "https://archive.conference.hitb.org/hitbsecconf2010mal/index.html_page_id=41.html",
+                "date": "11-14 October 2009",
+                "location": "The Crowne Plaza Mutiara, KL"
+            },
+			"2011": {
+                "link": "https://archive.conference.hitb.org/hitbsecconf2011kul/index.html_page_id=41.html",
+                "date": "October 2011",
+                "location": "Intercontinental Kuala Lumpur",
+                "prize_pool": 4544,
+                "winners": [
+                    "sutegoma2 (JAPAN)",
+                    "Dutch Orange Glasses (NETHERLANDS)",
+                    "Securityfirst (REPUBLIC OF KOREA)",
+                    "Stealther (MALAYSIA)",
+                    "D3c3p71c0n (VIETNAM)"
+                ]
+            },
+            "2012": {
+                "link": "https://archive.conference.hitb.org/hitbsecconf2012kul/event/capture-the-flag/index.html",
+                "date": "10-11 October 2012",
+                "location": "Intercontinental Kuala Lumpur",
+                "prize_pool": 10000
+            },
+            "2013": {
+                "link": "https://archive.conference.hitb.org/hitbsecconf2013kul/index.html_p=38.html",
+                "date": "14-15 October 2013",
+                "location": "Intercontinental Kuala Lumpur",
+                "prize_pool": 11550,
+				"winners": [
+                    "WTF (VIETNAM)",
+                    "dynobot (Vietnam)",
+                    "Rentjong (INDONESIA)",
+                    "Postronic Quadrant (MALAYSIA)"
+                ]
+            },
+            "2014": {
+                "link": "https://archive.conference.hitb.org/hitbsecconf2014kul/capture-the-flag/",
+                "date": "15-16 October 2014",
+                "location": "Intercontinental Kuala Lumpur",
+                "prize_pool": 10000
+            }
+        }
+    },
     {
         "name": "I-Hack",
         "url": "https://awan.uitm.edu.my/ihack/",
@@ -138,7 +268,9 @@
                 "winners": [
                     "woitheuk",
                     "Sushi Black",
-                    "KaizenSecurity"
+                    "KaizenSecurity",
+                    "daniellimws",
+                    "ayamkambing"
                 ]
             },
             "2019": {
@@ -155,7 +287,14 @@
             "2020": {
                 "link": "https://wargames.my/2020/",
                 "date": "Dec 2020",
-                "location": "Online"
+                "location": "Online",
+                "winners": [
+                    "KaizenSecurity",
+                    "Red is sus",
+                    "70000000",
+                    "i-dUck Pro Max SE",
+                    "OCAR"
+                ]
             },
             "2021": {
                 "link": "https://wargames.my/2021/",
@@ -179,7 +318,7 @@
                 "winners": [
                     "Richard Parker",
                     "team_wildcats",
-                    "KaizenSecurity x RempahBrokers",
+                    "KaizenSecurity",
                     "iMonkey Ultra Max",
                     "Six Of Crows",
                     "awalnya coba-coba"
@@ -201,49 +340,6 @@
                 "date": "Dec 2024",
                 "location": "Online",
                 "prize_pool": 9000
-            }
-        }
-    },
-    {
-        "name": "HITB",
-        "url": "https://conference.hitb.org/",
-        "years": {
-            "2011": {
-                "link": "https://archive.conference.hitb.org/hitbsecconf2011kul/index.html_page_id=41.html",
-                "date": "October 2011",
-                "location": "Intercontinental Kuala Lumpur",
-                "prize_pool": 4544,
-                "winners": [
-                    "sutegoma2 (JAPAN)",
-                    "Dutch Orange Glasses (NETHERLANDS)",
-                    "Securityfirst (REPUBLIC OF KOREA)",
-                    "Stealther (MALAYSIA)",
-                    "D3c3p71c0n (VIETNAM)"
-                ]
-            },
-            "2012": {
-                "link": "https://archive.conference.hitb.org/hitbsecconf2012kul/event/capture-the-flag/index.html",
-                "date": "10-11 October 2012",
-                "location": "Intercontinental Kuala Lumpur",
-                "prize_pool": 10000
-            },
-            "2013": {
-                "link": "https://archive.conference.hitb.org/hitbsecconf2013kul/index.html_p=38.html",
-                "date": "14-15 October 2013",
-                "location": "Intercontinental Kuala Lumpur",
-                "prize_pool": 11550,
-				"winners": [
-                    "WTF (VIETNAM)",
-                    "dynobot (Vietnam)",
-                    "Rentjong (INDONESIA)",
-                    "Postronic Quadrant (MALAYSIA)"
-                ]
-            },
-            "2014": {
-                "link": "https://archive.conference.hitb.org/hitbsecconf2014kul/capture-the-flag/",
-                "date": "15-16 October 2014",
-                "location": "Intercontinental Kuala Lumpur",
-                "prize_pool": 10000
             }
         }
     },
@@ -696,9 +792,11 @@
                 "location": "PICC",
 				"prize_pool": 10000,
 				"winners": [
-                    "Sudo rm -rf /",
-					"Anything",
-					"Squad Busters"
+                    "MeowneyLion",
+					"Pleaiades",
+					"Formal Sweatpants",
+					"C0ughinb4by",
+					"The Ryt Way"
                 ]
             }
         }
