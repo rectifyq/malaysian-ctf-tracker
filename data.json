@@ -1,1083 +1,1835 @@
 [
-    {
-        "name": "INFOSEC",
-        "url": "https://web.archive.org/web/20260000000000*/https://MNCC.COM.MY",
-        "years": {
-            "2002": {
-                "link": "https://web.archive.org/web/20021010072920/http://www.mncc.com.my/infosec2002/ctf.html",
-                "date": "24-25 September 2002",
-                "location": "IMATEC, Bukit Kiara, KL",
-                "prize_pool": 2000,
-                "winners": [
-                    "spoonfork"
-                ],
-                "refs": [
-                    "https://x.com/zeifan/status/2082123179254808791"
-                ]
-            },
-            "2003": "https://web.archive.org/web/20031212023511/http://conference.hackinthebox.org/ctf.php"
-        }
-    },
-    {
-        "name": "HITB",
-        "url": "https://conference.hitb.org/",
-        "years": {
-            "2002": {
-                "link": "https://web.archive.org/web/20031212023511/http://conference.hackinthebox.org/ctf.php"
-            },
-            "2003": {
-                "link": "https://web.archive.org/web/20040403173407/http://conference.hackinthebox.org/index.php",
-                "date": "12 December 2003",
-                "location": "Mid Valley Exhibition Center, KL",
-                "winners": [
-                    "MoS (Malaysia)",
-                    "Digital Trancendence Force (Malaysia)",
-                    "Dot Slash Jack (Malaysia)",
-                    "Blackhawkdown (India)"
-                ]
-            },
-            "2004": {
-                "link": "https://web.archive.org/web/20041025081443/http://conference.hackinthebox.org/index.php",
-                "date": "6-7 October 2004",
-                "location": "The Westin Kuala Lumpur, KL",
-                "winners": [
-                    "MoS (Malaysia)",
-                    "Dot Slash Jack (Malaysia)",
-                    "1st (Indonesia)",
-                    "OCP (Malaysia)",
-                    "Footmen (Brunei)"
-                ]
-            },
-            "2005": {
-                "link": "https://web.archive.org/web/20051208084946/http://conference.hackinthebox.org/hitbsecconf2005kl/index.php?cat=5",
-                "date": "28-29 September 2005",
-                "location": "The Westin Kuala Lumpur, KL",
-                "prize_pool": 3800
-            },
-            "2006": {
-                "link": "https://web.archive.org/web/20061213193010/http://conference.hackinthebox.org/hitbsecconf2006kl/",
-                "date": "18-21 September 2006",
-                "location": "The Westin Kuala Lumpur, KL",
-                "prize_pool": 6000
-            },
-            "2007": {
-                "link": "https://web.archive.org/web/20071009012332/http://conference.hitb.org/hitbsecconf2007kl/?page_id=61",
-                "date": "3-6 September 2007",
-                "location": "Hilton KL Sentral, KL",
-                "prize_pool": 20000
-            },
-            "2008": {
-                "link": "https://web.archive.org/web/20240523055528/https://archive.conference.hitb.org/hitbsecconf2008kl/index.html_page_id=61.html",
-                "date": "27-30 October 2008",
-                "location": "The Crowne Plaza Mutiara, KL",
-                "prize_pool": 6000
-            },
-            "2009": {
-                "link": "https://web.archive.org/web/20231012090725/https://archive.conference.hitb.org/hitbsecconf2009kl/index.html_page_id=41.html",
-                "date": "5-8 October 2009",
-                "location": "The Crowne Plaza Mutiara, KL"
-            },
-            "2010": {
-                "link": "https://archive.conference.hitb.org/hitbsecconf2010mal/index.html_page_id=41.html",
-                "date": "11-14 October 2009",
-                "location": "The Crowne Plaza Mutiara, KL"
-            },
-            "2011": {
-                "link": "https://archive.conference.hitb.org/hitbsecconf2011kul/index.html_page_id=41.html",
-                "date": "October 2011",
-                "location": "Intercontinental Kuala Lumpur",
-                "prize_pool": 4544,
-                "winners": [
-                    "sutegoma2 (JAPAN)",
-                    "Dutch Orange Glasses (NETHERLANDS)",
-                    "Securityfirst (REPUBLIC OF KOREA)",
-                    "Stealther (MALAYSIA)",
-                    "D3c3p71c0n (VIETNAM)"
-                ]
-            },
-            "2012": {
-                "link": "https://archive.conference.hitb.org/hitbsecconf2012kul/event/capture-the-flag/index.html",
-                "date": "10-11 October 2012",
-                "location": "Intercontinental Kuala Lumpur",
-                "prize_pool": 10000
-            },
-            "2013": {
-                "link": "https://archive.conference.hitb.org/hitbsecconf2013kul/index.html_p=38.html",
-                "date": "14-15 October 2013",
-                "location": "Intercontinental Kuala Lumpur",
-                "prize_pool": 11550,
-                "winners": [
-                    "WTF (VIETNAM)",
-                    "dynobot (Vietnam)",
-                    "Rentjong (INDONESIA)",
-                    "Postronic Quadrant (MALAYSIA)"
-                ]
-            },
-            "2014": {
-                "link": "https://archive.conference.hitb.org/hitbsecconf2014kul/capture-the-flag/",
-                "date": "15-16 October 2014",
-                "location": "Intercontinental Kuala Lumpur",
-                "prize_pool": 10000
-            }
-        }
-    },
-    {
-        "name": "I-Hack",
-        "url": "https://awan.uitm.edu.my/ihack/",
-        "years": {
-            "2006": {
-                "link": "https://www.youtube.com/watch?v=L8YkYQkYvZY",
-                "date": "1-3 September 2006",
-                "location": "UiTM Shah Alam"
-            },
-            "2007": "https://web.archive.org/web/20071121050228/http://www.tmsk.uitm.edu.my/~i-hack/index.php",
-            "2008": {
-                "link": "https://www.utp.edu.my/Pages/Media/Press-Release/2008/UiTM-iHack-Competition-2008-(15---17-Aug-2008)-.aspx",
-                "date": "15-17 August 2008",
-                "location": "UiTM Shah Alam",
-                "prize_pool": 23000,
-                "winners": [
-                    "F.Nord(UTP)",
-                    "Project Tango(UTP)",
-                    "Core Crew(UTP)"
-                ]
-            },
-            "2010": {
-                "link": "https://web.archive.org/web/20101005085153/http://fskm.uitm.edu.my/ihack2010/",
-                "date": "7-8 August 2010",
-                "location": "UiTM Shah Alam",
-                "prize_pool": 19000,
-                "winners": [
-                    "darkc0de",
-                    "GreenHAT",
-                    "wonderpets",
-                    "MMU-ONE (CSF)",
-                    "21 guns",
-                    "MMU-THREE"
-                ]
-            },
-            "2012": {
-                "link": "https://web.archive.org/web/20121227072852/http://fskm.uitm.edu.my/ihack2012",
-                "date": "24-25 November 2012",
-                "location": "UiTM Shah Alam",
-                "prize_pool": 33000
-            },
-            "2013": {
-                "link": "https://web.archive.org/web/20130316034445/http://www.uitm-ihack.edu.my/2013/competitions",
-                "date": "13 April 2013",
-                "location": "UiTM Shah Alam",
-                "prize_pool": 18000
-            },
-            "2016": {
-                "link": "https://web.archive.org/web/20160229132405/http://fskm.uitm.edu.my/ihack/index.php/competition",
-                "date": "23-24 April 2016",
-                "location": "UiTM Shah Alam",
-                "prize_pool": 22000
-            },
-            "2018": {
-                "link": "https://fskm.uitm.edu.my/v5/en/component/content/article/415-i-hack-2018?catid=13&Itemid=154",
-                "date": "1-2 October 2018",
-                "location": "UiTM Shah Alam",
-                "prize_pool": 30000
-            },
-            "2022": {
-                "link": "https://news.uitm.edu.my/2022/12/understand-the-importance-of-cybersecurity-by-participating-in-ihack-2022-and-siber-siaga-2022/",
-                "date": "19-20 December 2022",
-                "location": "Wisma Perwira ATM",
-                "prize_pool": 36000
-            },
-            "2024": {
-                "link": "https://www.tiktok.com/@ihackuitm2024",
-                "date": "6-8 August 2024",
-                "location": "KLCC",
-                "prize_pool": 21000,
-                "winners": [
-                    "username - UPNM",
-                    "C1C4D4 - UITM",
-                    "M53_A1ph4_Sh4rk! - TAR UMT"
-                ]
-            },
-            "2026": {
-                "link": "https://awan.uitm.edu.my/ihack/",
-                "date": "7-8 October 2026",
-                "location": "UiTM Shah Alam"
-            }
-        }
-    },
-    {
-        "name": "GreenHAT/GOH",
-        "url": "https://www.facebook.com/profile.php?id=100079291847225",
-        "years": {
-            "2010": {
-                "link": "https://www.facebook.com/profile.php?id=100079291847225",
-                "date": "27-28 November 2010",
-                "location": "UniKL MIIT"
-            },
-            "2011": {
-                "link": "https://www.facebook.com/profile.php?id=100071994294840",
-                "date": "9-10 February 2011",
-                "location": "UniKL MIIT"
-            },
-            "2015": {
-                "link": "https://www.facebook.com/goh.uniklmiit/",
-                "date": "21 November 2019",
-                "location": "UniKL MIIT"
-            },
-            "2017": {
-                "link": "https://www.facebook.com/goh.uniklmiit/",
-                "date": "21 November 2019",
-                "location": "UniKL MIIT"
-            },
-            "2019": {
-                "link": "https://www.facebook.com/goh.uniklmiit/",
-                "date": "21 November 2019",
-                "location": "UniKL MIIT"
-            },
-            "2023": {
-                "link": "https://www.facebook.com/goh.uniklmiit/",
-                "date": "21 November 2023",
-                "location": "UniKL MIIT",
-                "prize_pool": 6500,
-                "refs": [
-                    "https://linktr.ee/goh.miit"
-                ]
-            },
-            "2025": {
-                "link": "https://www.linkedin.com/posts/uniklmiitcssc_are-you-ready-to-prove-your-hacking-skills-activity-7393544558132961280-F5nN",
-                "date": "4 December 2025",
-                "location": "UniKL MIIT",
-                "prize_pool": 3000,
-                "refs": [
-                    "https://www.linkedin.com/posts/uniklmiitcssc_are-you-ready-to-prove-your-hacking-skills-activity-7393544558132961280-F5nN"
-                ],
-                "writeups": [
-                    "https://docs.google.com/document/d/1T79Isde3oDsw7MLBTRVi5SOC5ZjINFUYGtcugZKWUAo/edit?tab=t.0"
-                ]
-            }
-        }
-    },
-    {
-        "name": "WGMY",
-        "url": "https://wargames.my/",
-        "years": {
-            "2011": {
-                "link": "https://web.archive.org/web/20110712155711/http://wargames.my/",
-                "date": "July 2011",
-                "location": "Online",
-                "prize_pool": 2000,
-                "winners": [
-                    "Kueytiow",
-                    "p03p0wn",
-                    "permaban"
-                ]
-            },
-            "2012": {
-                "link": "https://web.archive.org/web/20120908170648/http://wargames.my/wgmy2012",
-                "date": "July 2012",
-                "location": "Online",
-                "prize_pool": 4545,
-                "winners": [
-                    "UiPC",
-                    "Rempah",
-                    "otakBeku"
-                ]
-            },
-            "2015": {
-                "link": "https://blog.rz.my/2015/05/wargamesmy-2015-challenge-7.html",
-                "location": "Online",
-                "winners": [
-                    "Rempah",
-                    "aleuto",
-                    "deyum"
-                ]
-            },
-            "2016": {
-                "link": "https://web.archive.org/web/20160711014901/http://wargames.my/",
-                "location": "Online",
-                "prize_pool": 3000,
-                "winners": [
-                    "aleuto",
-                    "comote",
-                    "deyum"
-                ]
-            },
-            "2017": {
-                "link": "https://wargames.my/2017/",
-                "date": "Nov 2017",
-                "location": "Online",
-                "prize_pool": 7000,
-                "winners": [
-                    "ayamkambing",
-                    "DCAR",
-                    "AleJnd"
-                ]
-            },
-            "2018": {
-                "link": "https://web.archive.org/web/20190716065522/https://2018.wargames.my/",
-                "date": "Dec 2018",
-                "location": "Online",
-                "prize_pool": 5100,
-                "winners": [
-                    "woitheuk",
-                    "Sushi Black",
-                    "KaizenSecurity",
-                    "daniellimws",
-                    "ayamkambing"
-                ]
-            },
-            "2019": {
-                "link": "https://wargames.my/2019/",
-                "date": "Dec 2019",
-                "location": "Online",
-                "prize_pool": 10050,
-                "winners": [
-                    "7e7",
-                    "daniellimws",
-                    "KaizenSecurity"
-                ]
-            },
-            "2020": {
-                "link": "https://wargames.my/2020/",
-                "date": "Dec 2020",
-                "location": "Online",
-                "winners": [
-                    "KaizenSecurity",
-                    "Red is sus",
-                    "70000000",
-                    "i-dUck Pro Max SE",
-                    "OCAR"
-                ]
-            },
-            "2021": {
-                "link": "https://wargames.my/2021/",
-                "date": "Dec 2021",
-                "location": "Online",
-                "prize_pool": 8437,
-                "winners": [
-                    "trailblazers",
-                    "Nandy Narwhals",
-                    "Bunga Raya",
-                    "daniellimws",
-                    "H0j3n",
-                    "liudashendiao"
-                ]
-            },
-            "2022": {
-                "link": "https://wargames.my/2022/",
-                "date": "Dec 2022",
-                "location": "Online",
-                "prize_pool": 9000,
-                "winners": [
-                    "Richard Parker",
-                    "team_wildcats",
-                    "KaizenSecurity",
-                    "iMonkey Ultra Max",
-                    "Six Of Crows",
-                    "awalnya coba-coba"
-                ]
-            },
-            "2023": {
-                "link": "https://wargames.my/2023/",
-                "date": "Dec 2023",
-                "location": "Online",
-                "prize_pool": 8000,
-                "winners": [
-                    "obligatory",
-                    "Roti Canai",
-                    "Weak But Leet"
-                ]
-            },
-            "2024": {
-                "link": "https://wargames.my/2024/",
-                "date": "Dec 2024",
-                "location": "Online",
-                "prize_pool": 9000
-            }
-        }
-    },
-    {
-        "name": "Hack@10",
-        "url": "https://www.google.com/search?q=Hack%4010+Malaysia",
-        "years": {
-            "2011": {
-                "link": "https://irepository.uniten.edu.my/entities/publication/ac436832-72c0-44a9-8e26-672d118f419e",
-                "date": "2011",
-                "location": "UNITEN Putrajaya"
-            },
-            "2012": {
-                "link": "https://web.archive.org/web/20120414201304/http://webs.cs.utm.my/newsevent/309",
-                "date": "7-8 April 2012",
-                "location": "UNITEN Putrajaya",
-                "prize_pool": 6600,
-                "winners": [
-                    "UTM1",
-                    "MMU2",
-                    "UiTM1",
-                    "UTM2",
-                    "UiTM2"
-                ]
-            },
-            "2018": {
-                "link": "https://www.facebook.com/hack10.uniten/",
-                "date": "3 March 2018",
-                "location": "UNITEN Putrajaya",
-                "prize_pool": 7000,
-                "winners": [
-                    "hashcow",
-                    "AleJnd",
-                    "leviathan",
-                    "raiza",
-                    "buff3r_overf10w"
-                ]
-            },
-            "2026": {
-                "link": "https://www.instagram.com/hack10.uniten/",
-                "date": "18 April 2026",
-                "location": "UNITEN Putrajaya",
-                "prize_pool": 5000,
-                "winners": [
-                    "UniKL",
-                    "APU1",
-                    "APU2",
-                    "APU3",
-                    "UNITEN"
-                ]
-            }
-        }
-    },
-    {
-        "name": "UTPHAX",
-        "url": "https://www.google.com/search?q=UTPHAX+CTF",
-        "years": {
-            "2014": {
-                "link": "https://web.archive.org/web/20141115182022/http://utp-hax.utp.edu.my/",
-                "date": "14-15 November 2014",
-                "location": "UTP",
-                "prize_pool": 10000,
-                "winners": [
-                    "MMU"
-                ]
-            },
-            "2015": {
-                "link": "https://web.archive.org/web/20141115182022/http://utp-hax.utp.edu.my/",
-                "date": "13-14 November 2015",
-                "location": "UTP",
-                "prize_pool": 15000
-            },
-            "2016": {
-                "link": "https://web.archive.org/web/20170203043952/https://cybersocks.org/malaysia",
-                "date": "December 2016",
-                "location": "UUM",
-                "prize_pool": 15000
-            }
-        }
-    },
-    {
-        "name": "KPMG",
-        "url": "https://www.google.com/search?q=KPMG+Cyber+Security+Challenge+Malaysia",
-        "years": {
-            "2015": {
-                "link": "https://www.facebook.com/photo.php?fbid=996878417030254",
-                "date": "9 December 2015",
-                "location": "Connexion Bangsar",
-                "prize_pool": 15000
-            },
-            "2016": {
-                "link": "https://www.facebook.com/photo.php?fbid=1240259029358857",
-                "date": "22 November 2016",
-                "location": "Connexion Bangsar",
-                "prize_pool": 6000
-            },
-            "2017": {
-                "link": "https://www.facebook.com/story.php?story_fbid=1626954970689259&id=100064725964802",
-                "date": "21 November 2017",
-                "location": "Connexion Bangsar",
-                "prize_pool": 7000,
-                "winners": [
-                    "EternalBlue",
-                    "MS10-061",
-                    "hashcow"
-                ]
-            },
-            "2018": {
-                "link": "https://www.facebook.com/100064725964802/posts/2078142802237138/",
-                "date": "28 November 2018",
-                "location": "Connexion Bangsar",
-                "prize_pool": 6000,
-                "winners": [
-                    "AleJnd",
-                    "hashcow",
-                    "An Unexpected Journey"
-                ]
-            },
-            "2019": {
-                "link": "https://www.digitalnewsasia.com/digital-economy/kpmg-cyber-challenge-2019-tests-undergrads-real-business-case-scenarios",
-                "date": "25 September 2019",
-                "location": "One World Hotel",
-                "prize_pool": 6000,
-                "winners": [
-                    "_SKR",
-                    "Dcypher",
-                    "thos_guys_again"
-                ]
-            }
-        }
-    },
-    {
-        "name": "F-Secure",
-        "url": "https://web.archive.org/web/20190122151001/http://www.cyberheroes.my/",
-        "years": {
-            "2015": {
-                "link": "https://www.tarc.edu.my/news.jsp?cat_id=56EBCDAD-D3D4-4D3B-8AC4-44CAF115AE1E&fmenuid=63470210-0077-4156-8326-47DE252878A7&news_id=707361F5-1049-46D3-8641-7C045474F775",
-                "date": "4-5 December 2017",
-                "location": "Nexus Bangsar South",
-                "prize_pool": 15000
-            },
-            "2016": {
-                "link": "https://apu.edu.my/news/apu-students-championed-f-secure-it-security-competition-malaysia-2016",
-                "date": "14 April 2016",
-                "location": "Nexus Bangsar South"
-            },
-            "2017": {
-                "link": "https://news.utar.edu.my/awards/2017/28/28.html",
-                "date": "17 March 2017",
-                "location": "Capri by Fraser @ Bangsar South"
-            },
-            "2018": {
-                "link": "https://www.facebook.com/media/set/?set=a.613914492288925&type=3",
-                "date": "25 April 2018",
-                "location": "Bangsar South"
-            },
-            "2020": {
-                "link": "https://eduadvisor.my/articles/apu-emerges-as-champion-of-national-f-secure-cyber-security-competition-once-again",
-                "date": "17 March 2017",
-                "location": "Capri by Fraser @ Bangsar South"
-            },
-            "2021": {
-                "link": "https://www.businesstoday.com.my/2021/10/15/uitm-wins-f-secure-mdec-cybersecurity-competition-2021/",
-                "date": "17 March 2017",
-                "location": "Capri by Fraser @ Bangsar South"
-            }
-        }
-    },
-    {
-        "name": "Cyber ​​Heroes",
-        "url": "https://web.archive.org/web/20190122151001/http://www.cyberheroes.my/",
-        "years": {
-            "2017": {
-                "link": "https://www.nst.com.my/education/2017/12/313846/securing-cyber-security-all-fronts",
-                "date": "4-5 December 2017",
-                "location": "UKM Bangi",
-                "prize_pool": 15000
-            },
-            "2019": {
-                "link": "https://web.archive.org/web/20191230170754/http://www.cyberheroes.my/",
-                "date": "6-7 March 2019",
-                "location": "APU",
-                "prize_pool": 6000,
-                "winners": [
-                    "Shellhound",
-                    "P@N7H3R@",
-                    "GoGoPowerRangers"
-                ]
-            }
-        }
-    },
-    {
-        "name": "RawSEC",
-        "url": "https://www.facebook.com/rawsec.my",
-        "years": {
-            "2020": {
-                "link": "https://www.facebook.com/rawsec.my/posts/pfbid02i5F2kZ7vUWS6D7gP17Rxj5BxR6ouqwrT2STpzX6VvPGZnxK5dgjMfe5qMuKm3k7sl",
-                "date": "19-20 February 2020",
-                "location": "Online",
-                "prize_pool": 800,
-                "winners": [
-                    "myfared",
-                    "hk",
-                    "socksys",
-                    "Grumpy Unicorn",
-                    "ali"
-                ]
-            },
-            "2023": {
-                "link": "https://www.facebook.com/rawsec.my/posts/pfbid0dFzaPZAN4usmdVZF14voFggeJdxSSb8siu8YXx8eQXZRHHE5qQDMLudZg2ex9vNAl",
-                "date": "21 October 2023",
-                "prize_pool": 4500
-            },
-            "2024": {
-                "link": "https://www.facebook.com/rawsec.my/posts/pfbid0241ETD1tWhaJUz4g87HdGc34jcZt3t5s5FTzu5gdvESpMtZNtzCGZtDgCdr7APVtnl",
-                "date": "9 March 2024",
-                "prize_pool": 5550,
-                "winners": [
-                    "CH1P1CH4P4",
-                    "GPT-111",
-                    "S4MB4L"
-                ]
-            },
-            "2025": {
-                "link": "https://www.facebook.com/rawsec.my/posts/pfbid0241ETD1tWhaJUz4g87HdGc34jcZt3t5s5FTzu5gdvESpMtZNtzCGZtDgCdr7APVtnl",
-                "date": "27 October 2025",
-                "prize_pool": 2100,
-                "winners": [
-                    "Shawarma Army",
-                    "Cyberguards",
-                    "M41N2"
-                ]
-            }
-        }
-    },
-    {
-        "name": "BOH",
-        "url": "https://www.instagram.com/apu_fsec.ss",
-        "years": {
-            "2021": {
-                "link": "https://www.instagram.com/p/CUzois9vKSD/",
-                "date": "6-7 November 2021",
-                "location": "APU",
-                "prize_pool": 4000,
-                "winners": [
-                    "Spac3Cat",
-                    "H0j3n",
-                    "Cyberx",
-                    "SKR",
-                    "Sheesh"
-                ]
-            },
-            "2022": {
-                "link": "https://web.archive.org/web/20240707124835/https://www.apu.edu.my/media/news/2747",
-                "date": "27 October 2022",
-                "location": "APU",
-                "prize_pool": 4000,
-                "winners": [
-                    "A1ph4_Sh4rk",
-                    "Spac3Cat",
-                    "Pengg0damn"
-                ]
-            },
-            "2023": {
-                "link": "https://apu.edu.my/news/asean-battle-hackers-aboh-2023-triumphs-transformations-and-cybersecurity-champions",
-                "date": "2 December 2023",
-                "location": "APU",
-                "prize_pool": 15190
-            },
-            "2024": {
-                "link": "https://www.instagram.com/reel/C_Pk9HGvHXb/",
-                "date": "28 September 2024",
-                "location": "APU",
-                "prize_pool": 22300
-            },
-            "2025": {
-                "link": "https://www.linkedin.com/posts/iboh2025-battleofhackers-ctf-ugcPost-7376074553493614592-yItQ",
-                "date": "8 November 2025",
-                "location": "APU",
-                "prize_pool": 26963
-            }
-        }
-    },
-    {
-        "name": "3108",
-        "url": "https://www.facebook.com/bahterasiber/",
-        "years": {
-            "2022": {
-                "link": "https://web.archive.org/web/20220820080110/https://ctf.bahterasiber.my/",
-                "date": "26-28 August 2022",
-                "location": "Online",
-                "winners": [
-                    "cr0wnz",
-                    "gh0stb0y",
-                    "dugisan3rd"
-                ]
-            },
-            "2023": {
-                "link": "https://github.com/OP-dash/BahteraSiber2023",
-                "date": "26-28 August 2023",
-                "location": "Online",
-                "winners": [
-                    "penyu",
-                    "h0shi",
-                    "TFS"
-                ],
-				"prize_pool": 500
-            },
-            "2024": {
-                "link": "https://x.com/_rectifyq/status/1826623439102509266",
-                "date": "30 August 2024",
-                "location": "Online",
-                "winners": [
-                    "username",
-                    "OSINTGOD96",
-                    "SUPERCASUALPLAYER"
-                ],
-				"prize_pool": 1000
-            },
-            "2025": {
-                "link": "https://x.com/bahterasiber/status/1962718798374674785",
-                "date": "30 August 2025",
-                "location": "Online",
-                "winners": [
-                    "m3r4hmUb4r4",
-                    "abutheone",
-                    "usernamejr"
-                ],
-				"prize_pool": 1500
-            }
-        }
-    },
-    {
-        "name": "Curtin",
-        "url": "https://curtin.edu.my/event/capture-the-flag/",
-        "years": {
-            "2023": {
-                "link": "https://web.archive.org/web/20240707121347/https://ctf2023.curtin.edu.my/",
-                "date": "14-15 October 2023",
-                "location": "Online",
-                "prize_pool": 6000,
-                "winners": [
-                    "scap3G04T",
-                    "GPT 100",
-                    "SpectreX",
-                    "Gajah Duduk",
-                    "0x94fbr"
-                ]
-            },
-            "2024": {
-                "link": "https://news.curtin.edu.my/news/curtin-malaysia-ctf-hackathon-2024-unveils-top-cybersecurity-talents/",
-                "date": "14-15 October 2024",
-                "location": "Online",
-                "prize_pool": 7500,
-                "winners": [
-                    "Din Tai Fung Slayer",
-                    "UniKL MIIT",
-                    "Squad Buster"
-                ]
-            },
-            "2025": {
-                "link": "https://web.archive.org/web/20251222083657/https://curtin.edu.my/event/capture-the-flag/",
-                "date": "6-7 December 2025",
-                "location": "Online",
-                "prize_pool": 6000,
-                "winners": [
-                    "flag/abuser",
-                    "ChowFan",
-                    "TungS4hur",
-                    "B1ngChilling",
-                    "Balai Polis"
-                ]
-            }
-        }
-    },
-    {
-        "name": "CYDES",
-        "url": "https://cydes.my/",
-        "years": {
-            "2023": {
-                "link": "https://www.bernama.com/en/general/news.php?id=2205221",
-                "date": "10 July 2023",
-                "location": "MITEC",
-                "prize_pool": 27000,
-                "winners": [
-                    "RootPwners"
-                ],
-                "refs": [
-                    "https://cybersec-blog-plzentertext.vercel.app/cydes23-rootpwners",
-                    "https://www.bernama.com/en/general/news.php?id=2205221",
-                    "https://www.scribd.com/document/663691165/CYDES-2023-OPOE-V53-09072023",
-                    "https://thesun.my/news/juara-cydes-cyber-warzone-akan-wakili-malaysia-ke-cyber-sea-games-2023-nd11211693/"
-                ]
-            },
-            "2025": {
-                "link": "https://www.linkedin.com/posts/badgetobreach-ics-ctf-share-7332686019579781120-JLJD/",
-                "date": "2 July 2025",
-                "location": "PICC",
-                "prize_pool": 10000,
-                "winners": [
-                    "MeowneyLion",
-                    "Pleaiades",
-                    "Formal Sweatpants",
-                    "C0ughinb4by",
-                    "The Ryt Way"
-                ]
-            }
-        }
-    },
-    {
-        "name": "APSEC",
-        "url": "https://web.archive.org/web/20230516172125/https://apsec2023.com/",
-        "years": {
-            "2023": {
-                "link": "https://web.archive.org/web/20231210104048/https://apsec2023.com/apcyberchallenge2023/",
-                "date": "20 May 2023",
-                "location": "Online",
-                "prize_pool": 9000,
-                "refs": [
-                    "https://web.archive.org/web/20231210104048/https://apsec2023.com/apcyberchallenge2023/",
-                    "https://www.youtube.com/watch?v=4tBmu3M7LfI",
-                    "https://www.linkedin.com/feed/update/urn:li:share:7053556683586875392/",
-                    "https://aseantechsec.com/asia-pacific-cyberattack-response-challenge-2023/",
-                    "https://www.facebook.com/JTDISABAH/videos/2052023-video-semasa-pertandingan-asia-pacific-cyberattack-response-challenge-20/1379004729623606/"
-                ]
-            }
-        }
-    },
-    {
-        "name": "GiCTF",
-        "url": "https://www.crest-approved.org/event/international-battle-of-hackers-iboh-2025/",
-        "years": {
-            "2023": {
-                "link": "https://girls-in-ctf.online/2023",
-                "date": "December 2023",
-                "location": "Online"
-            },
-            "2024": {
-                "link": "https://girls-in-ctf.online/2024",
-                "date": "October 2024",
-                "location": "Online",
-                "winners": [
-                    "L4tJ1u_P4nM33",
-                    "L4tJ1u_Encient",
-                    "L4tJ1u_Jin_07",
-                    "Anonymous_wanyin",
-                    "Anonymous_Zen"
-                ]
-            },
-            "2025": {
-                "link": "https://girls-in-ctf.online/2025",
-                "date": "September 2025",
-                "location": "Online",
-				"prize_pool": 600,
-                "winners": [
-                    "bobofish",
-                    "Mydei's D0gs",
-                    "KucingHitam",
-                    "abstract",
-                    "idunnoalsoleh"
-                ]
-            },
-            "2026": {
-                "link": "https://girls-in-ctf.online/2026",
-                "date": "October 2026",
-                "location": "Online"
-            }
-        }
-    },
-    {
-        "name": "CyberHunt",
-        "url": "https://news.utar.edu.my/news/2023/July/25/01/01.html",
-        "years": {
-            "2023": {
-                "link": "https://news.utar.edu.my/news/2023/July/25/01/01.html",
-                "date": "22 July 2023",
-                "location": "UTAR Kampar",
-                "prize_pool": 2250,
-                "winners": [
-                    "POPO",
-                    "GPT 11",
-                    "Darksid3rs",
-                    "robIOx"
-                ],
-                "refs": [
-                    "https://news.utar.edu.my/news/2023/July/25/01/01.html"
-                ]
-            },
-            "2024": {
-                "link": "https://news.utar.edu.my/news/2024/July/30/02/02.html",
-                "date": "20 July 2024",
-                "location": "UTAR Kampar",
-                "prize_pool": 2500,
-                "winners": [
-                    "RE:UN1ON Jr",
-                    "A1ph4_Sh4rk!",
-                    "SkibidiFood",
-                    "GPT-1001"
-                ],
-                "refs": [
-                    "https://news.utar.edu.my/news/2024/July/30/02/02.html",
-                    "https://focs.tarc.edu.my/achievements/tarumt-shines-at-the-amazing-cyberhunt-2024"
-                ]
-            },
-            "2026": {
-                "link": "https://cyberhuntutar.wixsite.com/ctf2026",
-                "date": "18 July 2026",
-                "location": "UTAR Kampar",
-                "prize_pool": 2500,
-                "winners": [
-                    "RE:UN1ON Jr",
-                    "A1ph4_Sh4rk!",
-                    "SkibidiFood",
-                    "GPT-1001"
-                ],
-                "refs": [
-                    "https://www.facebook.com/utardsaperak/posts/-utar-fict-3rd-intervarsity-ctf-challenge-2026-is-here-register-your-team-nowdea/1289870436652159/",
-                    "https://cyberhuntutar.wixsite.com/ctf2026"
-                ]
-            }
-        }
-    },
-    {
-        "name": "SunCTF",
-        "url": "https://www.linkedin.com/company/csc-sunway/posts/?feedView=all",
-        "years": {
-            "2024": "https://github.com/Wowiee3/SunwayCTF-challs",
-            "2025": {
-                "link": "https://www.linkedin.com/posts/everyone-we-have-officially-extended-the-share-7356694324220166145--tgA/",
-                "date": "30 August 2025",
-                "location": "Sunway College",
-                "prize_pool": 18500
-            },
-            "2026": {
-                "link": "https://www.linkedin.com/posts/csc-sunway_cybersecurity-capturetheflag-ctf-activity-7478109036949950465-4PGU",
-                "date": "6 September 2026",
-                "location": "Sunway College",
-                "prize_pool": 20000
-            }
-        }
-    },
-    {
-        "name": "SherpaCTF",
-        "url": "https://sherpasec.org",
-        "years": {
-            "2024": {
-                "link": "https://sherpasec.org/posts/sherpactf24-recap/",
-                "date": "23 November 2024",
-                "location": "Dell Cyberjaya",
-                "prize_pool": 23000,
-                "winners": [
-                    "M53_TEABAG",
-                    "CYRUSNISM",
-                    "CTRL+SHIFT+HACKERS",
-                    "SQUAD BUSTER",
-                    "IDK",
-                    "N3K0_1N_B0X"
-                ]
-            },
-            "2025": {
-                "link": "https://sherpasec.org/posts/sherpactf25-recap/",
-                "date": "19-21 November 2025",
-                "location": "AICB Centre of Excellence, Kuala Lumpur",
-                "prize_pool": 21800,
-                "winners": [
-                    "TAN SIN CHEE",
-                    "ONG ZI XUAN",
-                    "LEONG HAN MING"
-                ]
-            }
-        }
-    },
-    {
-        "name": "NEXSEC",
-        "url": "https://www.linkedin.com/company/csc-sunway/posts/?feedView=all",
-        "years": {
-            "2025": {
-                "link": "https://www.linkedin.com/posts/everyone-we-have-officially-extended-the-share-7356694324220166145--tgA/",
-                "date": "18-19 December 2025",
-                "location": "MCMC, Cyberjaya",
-                "prize_pool": 7500,
-                "winners": [
-                    "Bla Bla Bla",
-                    "Forgotten"
-                ],
-                "refs": [
-                    "https://www.linkedin.com/posts/syazwannmarzuki_nexsec2025-ugcPost-7430903105069944832-My-q/",
-                    "https://www.apu.edu.my/news/apus-cyber-champs-take-1st-and-2nd-place-intervarsity-cyber-forensics-challenge-2025",
-                    "https://www.linkedin.com/posts/yeoyingzhe_nexsec2025-ctf-cybersecurity-ugcPost-7414542261880946688-9s8i/",
-                    "https://www.instagram.com/p/DSmL3pdidNm/",
-                    "https://www.instagram.com/p/DVhoODej688/"
-                ],
-                "writeups": [
-                    "https://ctf.danplace.tech/posts/nexsec-2025-qualifiers/"
-                ]
-            }
-        }
-    },
-    {
-        "name": "NETSA",
-        "url": "https://www.instagram.com/netsaftmk/",
-        "years": {
-            "2025": {
-                "link": "https://reun10n.my/rectf/2025",
-                "date": "24 May 2025",
-                "location": "UTEM",
-                "prize_pool": 1200,
-                "winners": [
-                    "Sudo rm -rf /",
-                    "Anything",
-                    "Squad Busters"
-                ]
-            }
-        }
-    },
-    {
-        "name": "BlackBerry",
-        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7326881447170969600/",
-        "years": {
-            "2025": {
-                "link": "https://www.linkedin.com/feed/update/urn:li:activity:7326881447170969600/",
-                "date": "8 May 2025",
-                "location": "BlackBerry CCoE, Cyberjaya",
-                "prize_pool": 1200,
-                "winners": [
-                    "C0UGH1NGB4BY",
-                    "GPT-1110",
-                    "Bulbasaurus"
-                ],
-                "refs": [
-                    "https://www.linkedin.com/feed/update/urn:li:activity:7326881447170969600/"
-                ]
-            }
-        }
-    },
-    {
-        "name": "RE:UN10N",
-        "url": "https://reun10n.my",
-        "years": {
-            "2025": {
-                "link": "https://reun10n.my/rectf/2025",
-                "date": "27-28 December 2025",
-                "location": "Online",
-                "prize_pool": 500
-            },
-            "2026": true
-        }
-    },
-    {
-        "name": "UMCS",
-        "url": "https://umcybersec.site/",
-        "years": {
-            "2025": {
-                "link": "https://web.archive.org/web/20250715001952/https://umcybersec.site/",
-                "date": "17-18 May 2025",
-                "location": "PASUM, Universiti Malaya",
-                "prize_pool": 2400,
-                "winners": [
-                    "C0ughinb4by",
-                    "Squad Buster",
-                    "Formal Sweatpants"
-                ]
-            },
-            "2026": {
-                "link": "https://web.archive.org/web/20260725104528/https://umcybersec.site/",
-                "date": "16 May 2026",
-                "location": "FSKTM, Universiti Malaya",
-                "prize_pool": 5500,
-                "winners": [
-                    "C0ughinb4by",
-                    "Hehe i play ctf",
-                    "Please hire us"
-                ]
-            }
-        }
-    },
-    {
-        "name": "LIGA",
-        "url": "https://appsecmy.com/pages/liga-ctf-2026",
-        "years": {
-            "2026": {
-                "link": "https://appsecmy.com/pages/liga-ctf-2026",
-                "date": "May 2026",
-                "location": "Online",
-                "prize_pool": 4000
-            }
-        }
-    }
+	{
+		"name": "INFOSEC",
+		"url": "https://web.archive.org/web/20260000000000*/https://MNCC.COM.MY",
+		"years": {
+			"2002": {
+				"date": "24-25 September 2002",
+				"link": "https://web.archive.org/web/20021010072920/http://www.mncc.com.my/infosec2002/ctf.html",
+				"location": "IMATEC, Bukit Kiara, KL",
+				"prize_pool": "2000",
+				"refs": [
+					"https://x.com/zeifan/status/2082123179254808791"
+				],
+				"winners": [
+					"spoonfork"
+				]
+			},
+			"2003": "https://web.archive.org/web/20031212023511/http://conference.hackinthebox.org/ctf.php"
+		}
+	},
+	{
+		"name": "HITB",
+		"url": "https://conference.hitb.org/",
+		"years": {
+			"2002": {
+				"link": "https://web.archive.org/web/20031212023511/http://conference.hackinthebox.org/ctf.php"
+			},
+			"2003": {
+				"date": "12 December 2003",
+				"link": "https://web.archive.org/web/20040403173407/http://conference.hackinthebox.org/index.php",
+				"location": "Mid Valley Exhibition Center, KL",
+				"sponsors": [
+					"Compu-zone",
+					"Scan-associates",
+					"Enterasys",
+					"Spectrum Edge",
+					"Mynetsec"
+				],
+				"winners": [
+					"MoS (Malaysia)",
+					"Digital Trancendence Force (Malaysia)",
+					"Dot Slash Jack (Malaysia)",
+					"Blackhawkdown (India)"
+				]
+			},
+			"2004": {
+				"date": "6-7 October 2004",
+				"link": "https://web.archive.org/web/20041025081443/http://conference.hackinthebox.org/index.php",
+				"location": "The Westin Kuala Lumpur, KL",
+				"sponsors": [
+					"Juniper Networks",
+					"Transition Systems",
+					"Internet Security Systems (ISS)",
+					"Mynetsec"
+				],
+				"winners": [
+					"MoS (Malaysia)",
+					"Dot Slash Jack (Malaysia)",
+					"1st (Indonesia)",
+					"OCP (Malaysia)",
+					"Footmen (Brunei)"
+				]
+			},
+			"2005": {
+				"date": "28-29 September 2005",
+				"link": "https://web.archive.org/web/20051208084946/http://conference.hackinthebox.org/hitbsecconf2005kl/index.php?cat=5",
+				"location": "The Westin Kuala Lumpur, KL",
+				"prize_pool": "3800",
+				"sponsors": [
+					"Microsoft",
+					"VIA Technologies",
+					"Scan-associates",
+					"Defenxis"
+				]
+			},
+			"2006": {
+				"date": "18-21 September 2006",
+				"link": "https://web.archive.org/web/20061213193010/http://conference.hackinthebox.org/hitbsecconf2006kl/",
+				"location": "The Westin Kuala Lumpur, KL",
+				"prize_pool": "6000",
+				"refs": [
+					"https://web.archive.org/web/20070129003047/http://mel.icious.net/blog/2006/09/23/hitbsecconf2006-ctf-winner/"
+				],
+				"sponsors": [
+					"Foundstone",
+					"Microsoft",
+					"Cisco Systems",
+					"Lucent Technologies",
+					"AIMS",
+					"Ascendsys",
+					"Scan-associates"
+				],
+				"winners": [
+					"dokdo-kor (South Korea)",
+					"zone-h (Italy)",
+					"Qb1t (Singapore)"
+				]
+			},
+			"2007": {
+				"date": "3-6 September 2007",
+				"link": "https://web.archive.org/web/20071009012332/http://conference.hitb.org/hitbsecconf2007kl/?page_id=61",
+				"location": "Hilton KL Sentral, KL",
+				"prize_pool": "20000",
+				"sponsors": [
+					"Microsoft",
+					"SCANIT ME LLC",
+					"Global Transit",
+					"Scan-associates",
+					"Ascendsys",
+					"Avenuz Sdn. Bhd."
+				]
+			},
+			"2008": {
+				"date": "27-30 October 2008",
+				"link": "https://web.archive.org/web/20240523055528/https://archive.conference.hitb.org/hitbsecconf2008kl/index.html_page_id=61.html",
+				"location": "The Crowne Plaza Mutiara, KL",
+				"prize_pool": "6000",
+				"sponsors": [
+					"Oracle",
+					"Microsoft",
+					"Intel",
+					"F-Secure",
+					"Sourcefire",
+					"iSightpartners",
+					"TIME",
+					"Global Transit",
+					"3com"
+				]
+			},
+			"2009": {
+				"date": "5-8 October 2009",
+				"link": "https://web.archive.org/web/20231012090725/https://archive.conference.hitb.org/hitbsecconf2009kl/index.html_page_id=41.html",
+				"location": "The Crowne Plaza Mutiara, KL",
+				"sponsors": [
+					"Microsoft",
+					"IBM",
+					"3com",
+					"TIME",
+					"Global Transit"
+				]
+			},
+			"2010": {
+				"date": "11-14 October 2010",
+				"link": "https://archive.conference.hitb.org/hitbsecconf2010mal/index.html_page_id=41.html",
+				"location": "The Crowne Plaza Mutiara, KL",
+				"sponsors": [
+					"Intel",
+					"IBM",
+					"Microsoft",
+					"iSightpartners",
+					"VRLSec",
+					"TIME",
+					"Global Transit",
+					"AIMS"
+				]
+			},
+			"2011": {
+				"date": "October 2011",
+				"link": "https://archive.conference.hitb.org/hitbsecconf2011kul/index.html_page_id=41.html",
+				"location": "Intercontinental Kuala Lumpur",
+				"prize_pool": "4544",
+				"winners": [
+					"sutegoma2 (JAPAN)",
+					"Dutch Orange Glasses (NETHERLANDS)",
+					"Securityfirst (REPUBLIC OF KOREA)",
+					"Stealther (MALAYSIA)",
+					"D3c3p71c0n (VIETNAM)"
+				]
+			},
+			"2012": {
+				"date": "10-11 October 2012",
+				"link": "https://archive.conference.hitb.org/hitbsecconf2012kul/event/capture-the-flag/index.html",
+				"location": "Intercontinental Kuala Lumpur",
+				"prize_pool": "10000",
+				"sponsors": [
+					"Blackberry",
+					"Google Chrome",
+					"VRLSec",
+					"Mozilla",
+					"Microsoft",
+					"IOActive",
+					"Trustwave",
+					"Panda Security",
+					"Whispering Bell",
+					"TIME"
+				]
+			},
+			"2013": {
+				"date": "14-15 October 2013",
+				"link": "https://archive.conference.hitb.org/hitbsecconf2013kul/index.html_p=38.html",
+				"location": "Intercontinental Kuala Lumpur",
+				"prize_pool": "11550",
+				"refs": [
+					"https://securelist.com/ctf-wmd-war-of-the-world-in-hitb2013-kuala-lumpur/57213/"
+				],
+				"sponsors": [
+					"Microsoft",
+					"Blackberry",
+					"Facebook",
+					"VRLSec",
+					"Qualys",
+					"Trustwave",
+					"Milton Security"
+				],
+				"winners": [
+					"WTF (VIETNAM)",
+					"dynobot (Vietnam)",
+					"Rentjong (INDONESIA)",
+					"Postronic Quadrant (MALAYSIA)"
+				]
+			},
+			"2014": {
+				"date": "15-16 October 2014",
+				"link": "https://archive.conference.hitb.org/hitbsecconf2014kul/capture-the-flag/",
+				"location": "Intercontinental Kuala Lumpur",
+				"prize_pool": "10000",
+				"sponsors": [
+					"Quarkslab",
+					"Blackberry",
+					"Microsoft",
+					"Mozilla",
+					"Quintiq",
+					"NSHC"
+				]
+			}
+		}
+	},
+	{
+		"name": "I-Hack",
+		"url": "https://awan.uitm.edu.my/ihack/",
+		"years": {
+			"2006": {
+				"date": "1-3 September 2006",
+				"link": "https://www.youtube.com/watch?v=L8YkYQkYvZY",
+				"location": "UiTM Shah Alam"
+			},
+			"2007": {
+				"date": "17-19 August 2007",
+				"link": "https://web.archive.org/web/20071121050228/http://www.tmsk.uitm.edu.my/~i-hack/index.php",
+				"location": "UiTM Shah Alam",
+				"prize_pool": "6000",
+				"refs": [
+					"https://web.archive.org/web/20071220051752/http://www.tmsk.uitm.edu.my/~i-hack/",
+					"https://web.archive.org/web/20071202092047/http://www.tmsk.uitm.edu.my/~i-hack/more%20-%20Hacking%20Competition.php",
+					"https://blog.kagesenshi.org/2007/08/getting-compiz-fusion-into-fedora-uitm.html",
+					"https://blog.kagesenshi.org/2007/08/compiz-fusion-052-packages-uitm-ihack.html"
+				],
+				"sponsors": [
+					"MCMC",
+					"Scan-associates",
+					"F-Secure",
+					"CGYHOST",
+					"AMD",
+					"HITB"
+				]
+			},
+			"2008": {
+				"date": "15-17 August 2008",
+				"link": "https://web.archive.org/web/20080917190600/http://www.tmsk.uitm.edu.my/~i-hack/index.php",
+				"location": "UiTM Shah Alam",
+				"prize_pool": "23000",
+				"refs": [
+					"https://www.hassanbakar.com/2008/08/17/i-hack-2008-uitm-shah-alam/",
+					"https://www.utp.edu.my/Pages/Media/Press-Release/2008/UiTM-iHack-Competition-2008-(15---17-Aug-2008)-.aspx"
+				],
+				"sponsors": [
+					"MCMC",
+					"Digi",
+					"Prestariang",
+					"AMD",
+					"TM",
+					"Digicert",
+					"Visual in Tech Sdn Bhd",
+					"Scan-associates",
+					"HITB"
+				],
+				"winners": [
+					"F.Nord(UTP)",
+					"Project Tango(UTP)",
+					"Core Crew(UTP)"
+				]
+			},
+			"2010": {
+				"date": "7-8 August 2010",
+				"link": "https://web.archive.org/web/20101005085153/http://fskm.uitm.edu.my/ihack2010/",
+				"location": "UiTM Shah Alam",
+				"prize_pool": "19000",
+				"sponsors": [
+					"MCMC",
+					"Scan-associates",
+					"Edaran"
+				],
+				"winners": [
+					"darkc0de",
+					"GreenHAT",
+					"wonderpets",
+					"MMU-ONE (CSF)",
+					"21 guns",
+					"MMU-THREE"
+				],
+				"writeups": [
+					"https://mysabily.ak47suk1.my/2010/08/i-hack-2010-gerakkerja-hnd-puzzle.html"
+				]
+			},
+			"2012": {
+				"date": "24-25 November 2012",
+				"link": "https://web.archive.org/web/20121227072852/http://fskm.uitm.edu.my/ihack2012",
+				"location": "UiTM Shah Alam",
+				"prize_pool": "33000"
+			},
+			"2013": {
+				"date": "13 April 2013",
+				"link": "https://web.archive.org/web/20130316034445/http://www.uitm-ihack.edu.my/2013/competitions",
+				"location": "UiTM Shah Alam",
+				"prize_pool": "18000",
+				"sponsors": [
+					"Jaring"
+				]
+			},
+			"2016": {
+				"date": "23-24 April 2016",
+				"link": "https://web.archive.org/web/20160229132405/http://fskm.uitm.edu.my/ihack/index.php/competition",
+				"location": "UiTM Shah Alam",
+				"prize_pool": "22000",
+				"sponsors": [
+					"MCMC",
+					"Localhost.my",
+					"Accrete"
+				]
+			},
+			"2018": {
+				"date": "1-2 October 2018",
+				"link": "https://fskm.uitm.edu.my/v5/en/component/content/article/415-i-hack-2018?catid=13&Itemid=154",
+				"location": "UiTM Shah Alam",
+				"prize_pool": "30000"
+			},
+			"2022": {
+				"date": "19-20 December 2022",
+				"link": "https://news.uitm.edu.my/2022/12/understand-the-importance-of-cybersecurity-by-participating-in-ihack-2022-and-siber-siaga-2022/",
+				"location": "Wisma Perwira ATM",
+				"prize_pool": "36000",
+				"sponsors": [
+					"Sapura",
+					"Velum Labs"
+				],
+				"writeups": [
+					"https://vicevirus.github.io/posts/ihack-2022-qual-writeup/",
+					"https://vicevirus.github.io/posts/ihack-2022-writeup/"
+				]
+			},
+			"2024": {
+				"date": "6-8 August 2024",
+				"link": "https://www.tiktok.com/@ihackuitm2024",
+				"location": "KLCC",
+				"prize_pool": "21000",
+				"refs": [
+					"https://www.linkedin.com/posts/firdaus-amran_our-team-kena-paksa-from-universiti-selangor-ugcPost-7228044023259611136-0Ilj/"
+				],
+				"sponsors": [
+					"TM",
+					"MDEC",
+					"Prisma Khas"
+				],
+				"winners": [
+					"username - UPNM",
+					"C1C4D4 - UITM",
+					"M53_A1ph4_Sh4rk! - TAR UMT"
+				],
+				"writeups": [
+					"https://vicevirus.github.io/posts/ihack-2024-qual-writeup/",
+					"https://vicevirus.github.io/posts/ihack-2024-semi-final-writeup/",
+					"https://medium.com/@naddygaga/qualification-round-ihack-2024-capture-the-flag-ctf-7e5bd7bbeab3"
+				]
+			},
+			"2026": {
+				"date": "7-8 October 2026",
+				"link": "https://awan.uitm.edu.my/ihack/",
+				"location": "UiTM Shah Alam",
+				"sponsors": [
+					"Velum Labs",
+					"ECLogic",
+					"Blackberry",
+					"Techforte"
+				]
+			}
+		}
+	},
+	{
+		"name": "GreenHAT/GOH",
+		"url": "https://www.facebook.com/profile.php?id=100079291847225",
+		"years": {
+			"2010": {
+				"date": "27-28 November 2010",
+				"link": "https://www.facebook.com/profile.php?id=100079291847225",
+				"location": "UniKL MIIT"
+			},
+			"2011": {
+				"date": "9-10 February 2011",
+				"link": "https://www.facebook.com/profile.php?id=100071994294840",
+				"location": "UniKL MIIT"
+			},
+			"2015": {
+				"link": "https://www.facebook.com/goh.uniklmiit/",
+				"location": "UniKL MIIT",
+				"refs": [
+					"https://www.facebook.com/reel/1696529207519397"
+				]
+			},
+			"2016": {
+				"link": "https://www.facebook.com/goh.uniklmiit/",
+				"location": "UniKL MIIT",
+				"refs": [
+					"https://www.facebook.com/reel/1696529207519397"
+				]
+			},
+			"2017": {
+				"link": "https://www.facebook.com/goh.uniklmiit/",
+				"location": "UniKL MIIT",
+				"refs": [
+					"https://www.facebook.com/reel/1696529207519397"
+				]
+			},
+			"2018": {
+				"date": "25 April 2018",
+				"link": "https://www.facebook.com/reel/369030152233862",
+				"location": "UniKL MIIT",
+				"sponsors": [
+					"Nexagate",
+					"ASK Pentest",
+					"GO Byte Network",
+					"SCALAGE"
+				]
+			},
+			"2019": {
+				"date": "21 November 2019",
+				"link": "https://www.facebook.com/goh.uniklmiit/",
+				"location": "UniKL MIIT"
+			},
+			"2023": {
+				"date": "21 November 2023",
+				"link": "https://www.facebook.com/goh.uniklmiit/",
+				"location": "UniKL MIIT",
+				"prize_pool": "6500",
+				"refs": [
+					"https://linktr.ee/goh.miit",
+					"https://www.facebook.com/reel/742213377954369",
+					"https://www.facebook.com/photo?fbid=122126660474041917",
+					"https://github.com/warlocksmurf/localctf-writeups/tree/main/goh2023",
+					"https://cybersec-blog-plzentertext.vercel.app/goh23-3nt4hl4wei"
+				],
+				"sponsors": [
+					"MDEC",
+					"Nexagate",
+					"ASK Pentest",
+					"ACLEGACY",
+					"Skill Quotient",
+					"UniKL CSS",
+					"SRC"
+				],
+				"winners": [
+					"L0stPaR4d0x",
+					"DinoDefend3rs",
+					"Rubix",
+					"3NT4HL4W3I",
+					"GPT-110"
+				],
+				"writeups": [
+					"https://github.com/warlocksmurf/localctf-writeups/tree/main/goh2023",
+					"https://warlocksmurf.github.io/posts/gohctf2023/",
+					"https://hannrul.medium.com/walkthrough-goh-ctf-2023-884cb6bb95e7"
+				]
+			},
+			"2025": {
+				"date": "4 December 2025",
+				"link": "https://www.linkedin.com/posts/uniklmiitcssc_are-you-ready-to-prove-your-hacking-skills-activity-7393544558132961280-F5nN",
+				"location": "UniKL MIIT",
+				"prize_pool": "3000",
+				"refs": [
+					"https://www.linkedin.com/posts/uniklmiitcssc_are-you-ready-to-prove-your-hacking-skills-activity-7393544558132961280-F5nN"
+				],
+				"writeups": [
+					"https://docs.google.com/document/d/1T79Isde3oDsw7MLBTRVi5SOC5ZjINFUYGtcugZKWUAo/edit?tab=t.0",
+					"https://ctf.danplace.tech/posts/igoh-preliminary/"
+				]
+			}
+		}
+	},
+	{
+		"name": "WGMY",
+		"url": "https://wargames.my/",
+		"years": {
+			"2011": {
+				"date": "July 2011",
+				"link": "https://web.archive.org/web/20110712155711/http://wargames.my/",
+				"location": "Online",
+				"prize_pool": "2000",
+				"sponsors": [
+					"HackInTheBox"
+				],
+				"winners": [
+					"Kueytiow",
+					"p03p0wn",
+					"permaban"
+				]
+			},
+			"2012": {
+				"date": "July 2012",
+				"link": "https://web.archive.org/web/20120908170648/http://wargames.my/wgmy2012",
+				"location": "Online",
+				"prize_pool": "4545",
+				"sponsors": [
+					"HackInTheBox"
+				],
+				"winners": [
+					"UiPC",
+					"Rempah",
+					"otakBeku"
+				]
+			},
+			"2015": {
+				"link": "https://blog.rz.my/2015/05/wargamesmy-2015-challenge-7.html",
+				"location": "Online",
+				"winners": [
+					"Rempah",
+					"aleuto",
+					"deyum"
+				],
+				"writeups": [
+					"https://blog.rz.my/2015/05/wargamesmy-2015-challenge-7.html"
+				]
+			},
+			"2016": {
+				"link": "https://web.archive.org/web/20160711014901/http://wargames.my/",
+				"location": "Online",
+				"prize_pool": "3000",
+				"sponsors": [
+					"theSabun",
+					"Securelytics",
+					"ASK Pentest",
+					"CODETECH"
+				],
+				"winners": [
+					"aleuto",
+					"comote",
+					"deyum"
+				]
+			},
+			"2017": {
+				"date": "Nov 2017",
+				"link": "https://wargames.my/2017/",
+				"location": "Online",
+				"prize_pool": "7000",
+				"sponsors": [
+					"ASK Pentest",
+					"SysArmy",
+					"Securelytics",
+					"OWASP KL Chapter",
+					"Runcloud.io"
+				],
+				"winners": [
+					"ayamkambing",
+					"DCAR",
+					"AleJnd"
+				]
+			},
+			"2018": {
+				"date": "Dec 2018",
+				"link": "https://web.archive.org/web/20190716065522/https://2018.wargames.my/",
+				"location": "Online",
+				"prize_pool": "5100",
+				"sponsors": [
+					"Project18 VFP",
+					"MyCERT",
+					"NanoSec",
+					"ASK Pentest",
+					"Securelytics"
+				],
+				"winners": [
+					"woitheuk",
+					"Sushi Black",
+					"KaizenSecurity",
+					"daniellimws",
+					"ayamkambing"
+				],
+				"writeups": [
+					"https://github.com/WargamesMY/2018/tree/master/writeup"
+				]
+			},
+			"2019": {
+				"date": "Dec 2019",
+				"link": "https://wargames.my/2019/",
+				"location": "Online",
+				"prize_pool": "10050",
+				"sponsors": [
+					"PentesterLab",
+					"ASK Pentest",
+					"Securelytics",
+					"SysArmy",
+					"TheBugBounty",
+					"NanoSec",
+					"Exploitable.host",
+					"TheCampAround",
+					"Pentest.my",
+					"Syntx"
+				],
+				"winners": [
+					"7e7",
+					"daniellimws",
+					"KaizenSecurity"
+				],
+				"writeups": [
+					"https://github.com/WargamesMY/2019/tree/master/writeups",
+					"https://www.studocu.com/my/document/university-of-wollongong-malaysia-kdu/diploma-in-computer-science/woitheuk-wgmy-2019/9234469?sid=d825b76c-3a75-4594-96e3-89bbb4eabb3e1785543997",
+					"https://github.com/Amjad50/WGMY-CTF-2019"
+				]
+			},
+			"2020": {
+				"date": "Dec 2020",
+				"link": "https://wargames.my/2020/",
+				"location": "Online",
+				"sponsors": [
+					"ASK Pentest",
+					"HackInTheBox",
+					"NanoSec",
+					"Syntx",
+					"SmartCaliph",
+					"Exploitable.host"
+				],
+				"winners": [
+					"KaizenSecurity",
+					"Red is sus",
+					"70000000",
+					"i-dUck Pro Max SE",
+					"OCAR"
+				],
+				"writeups": [
+					"https://github.com/WargamesMY/2020/tree/main/writeup"
+				]
+			},
+			"2021": {
+				"date": "Dec 2021",
+				"link": "https://wargames.my/2021/",
+				"location": "Online",
+				"prize_pool": "8437",
+				"sponsors": [
+					"Talenta",
+					"RE:HACK",
+					"ASK Pentest",
+					"NetByteSec",
+					"Sudo Tech"
+				],
+				"winners": [
+					"trailblazers",
+					"Nandy Narwhals",
+					"Bunga Raya",
+					"daniellimws",
+					"H0j3n",
+					"liudashendiao"
+				],
+				"writeups": [
+					"https://github.com/WargamesMY/2021/tree/main/writeup"
+				]
+			},
+			"2022": {
+				"date": "Dec 2022",
+				"link": "https://wargames.my/2022/",
+				"location": "Online",
+				"prize_pool": "9000",
+				"sponsors": [
+					"ASK Pentest",
+					"RE:HACK"
+				],
+				"winners": [
+					"Richard Parker",
+					"team_wildcats",
+					"KaizenSecurity",
+					"iMonkey Ultra Max",
+					"Six Of Crows",
+					"awalnya coba-coba"
+				],
+				"writeups": [
+					"https://github.com/WargamesMY/2022/tree/main/writeup",
+					"https://thisisfinx.medium.com/wgmy-osint-writeup-1-f7471b682293",
+					"https://thisisfinx.medium.com/review-wgmy-osint-writeup-1-587df2d23726"
+				]
+			},
+			"2023": {
+				"date": "Dec 2023",
+				"link": "https://wargames.my/2023/",
+				"location": "Online",
+				"prize_pool": "8000",
+				"sponsors": [
+					"NetByteSec",
+					"ASK Pentest",
+					"RE:HACK",
+					"Fenrir Solution"
+				],
+				"winners": [
+					"obligatory",
+					"Roti Canai",
+					"Weak But Leet"
+				],
+				"writeups": [
+					"https://github.com/WargamesMY/2023/tree/main/writeup",
+					"https://github.com/warlocksmurf/localctf-writeups/tree/main/wgmy2023",
+					"https://warlocksmurf.github.io/posts/wgmyctf2023/",
+					"https://ctf.danplace.tech/posts/wargamesmy-2023-writeup/",
+					"https://w0rmhol3.netlify.app/2023/12/17/splice/",
+					"https://github.com/ArifPeycal/Wargames2023",
+					"https://hackmd.io/@diahdedrew89/wgmy-canai",
+					"https://medium.com/@muhammadnafiz2017/write-up-cryptography-and-pwn-challenges-on-wargames-my-2023-capture-the-flag-ea1b890b070b"
+				]
+			},
+			"2024": {
+				"date": "Dec 2024",
+				"link": "https://wargames.my/2024/",
+				"location": "Online",
+				"prize_pool": "9000",
+				"sponsors": [
+					"ASK Pentest",
+					"Cyberwise",
+					"MarhaenPay",
+					"NetByteSec",
+					"OWASP KL Chapter"
+				],
+				"writeups": [
+					"https://ctf.danplace.tech/posts/wargamesmy-2024-writeup/",
+					"https://vicevirus.github.io/posts/wgmy-2024-web-writeup/",
+					"https://lilacj4de.gitbook.io/lilas-space/ctf-stuff/wargames-2024-writeup",
+					"https://warlocksmurf.github.io/posts/wgmyctf2024/",
+					"https://w0rmhol3.netlify.app/2024/12/29/wargames2024/",
+					"https://cybersec-blog-plzentertext.vercel.app/wgmy24-hotbirdgl4z3rs",
+					"https://github.com/ArifPeycal/ctf-writeups/tree/main/2024/WGMY2024",
+					"https://blog.blockmagnates.com/wargames-my-ctf-2024-blockchain-writeup-7bfb2dc6a022",
+					"https://medium.com/@T0pN0xch/wargamesmy-ctf-2024-writeup-7960f7de58a3"
+				]
+			}
+		}
+	},
+	{
+		"name": "Hack@10",
+		"url": "https://www.google.com/search?q=Hack%4010+Malaysia",
+		"years": {
+			"2011": {
+				"date": "2011",
+				"link": "https://irepository.uniten.edu.my/entities/publication/ac436832-72c0-44a9-8e26-672d118f419e",
+				"location": "UNITEN Putrajaya",
+				"refs": [
+					"https://ali.uitm.edu.my/?page_id=91"
+				],
+				"winners": [
+					"UiPC"
+				]
+			},
+			"2012": {
+				"date": "7-8 April 2012",
+				"link": "https://web.archive.org/web/20120414201304/http://webs.cs.utm.my/newsevent/309",
+				"location": "UNITEN Putrajaya",
+				"prize_pool": "6600",
+				"winners": [
+					"UTM1",
+					"MMU2",
+					"UiTM1",
+					"UTM2",
+					"UiTM2"
+				],
+				"writeups": [
+					"https://feetsonmyshoes.blogspot.com/2012/04/uniten-hack10-tulis-atas.html"
+				]
+			},
+			"2018": {
+				"date": "3 March 2018",
+				"link": "https://www.facebook.com/hack10.uniten/",
+				"location": "UNITEN Putrajaya",
+				"prize_pool": "7000",
+				"sponsors": [
+					"YCU",
+					"TNB-IT",
+					"MDEC",
+					"Astiotech",
+					"Hilti"
+				],
+				"winners": [
+					"hashcow",
+					"AleJnd",
+					"leviathan",
+					"raiza",
+					"buff3r_overf10w"
+				]
+			},
+			"2026": {
+				"date": "18 April 2026",
+				"link": "https://www.instagram.com/hack10.uniten/",
+				"location": "UNITEN Putrajaya",
+				"prize_pool": "5000",
+				"refs": [
+					"https://www.apu.edu.my/news/apu-secured-hat-trick-podium-finishes-hack10-ctf-2026"
+				],
+				"sponsors": [
+					"LGMS",
+					"YCU",
+					"TNB",
+					"Printcious",
+					"Khee San",
+					"Berjaya Times Square",
+					"De Beauty Zone"
+				],
+				"winners": [
+					"GRINDB4GRAD",
+					"TomYamFanClub",
+					"A1sC3nd0l",
+					"J0bl3ss",
+					"UNITEN"
+				],
+				"writeups": [
+					"https://zakhwananuar.my/ctf-event.html?ctf=Hack%4010%20International%20CTF%202026"
+				]
+			}
+		}
+	},
+	{
+		"name": "UTPHAX",
+		"url": "https://www.google.com/search?q=UTPHAX+CTF",
+		"years": {
+			"2014": {
+				"date": "14-15 November 2014",
+				"link": "https://web.archive.org/web/20141115182022/http://utp-hax.utp.edu.my/",
+				"location": "UTP",
+				"prize_pool": "10000",
+				"sponsors": [
+					"KPerak",
+					"Fortinet",
+					"Yayasan UTP"
+				],
+				"winners": [
+					"MMU"
+				]
+			},
+			"2015": {
+				"date": "11-12 September 2015",
+				"link": "https://web.archive.org/web/20170422150046/http://utp-hax.utp.edu.my/",
+				"location": "UTP",
+				"prize_pool": "15000",
+				"sponsors": [
+					"KPerak",
+					"Fortinet",
+					"Yayasan UTP"
+				]
+			},
+			"2016": {
+				"date": "December 2016",
+				"link": "https://web.archive.org/web/20170203043952/https://cybersocks.org/malaysia",
+				"location": "UUM",
+				"prize_pool": "15000",
+				"sponsors": [
+					"TIME",
+					"Mesiniaga",
+					"Myren",
+					"Nase",
+					"i-erat",
+					"Bank Islam",
+					"Topbit"
+				]
+			}
+		}
+	},
+	{
+		"name": "KPMG",
+		"url": "https://www.google.com/search?q=KPMG+Cyber+Security+Challenge+Malaysia",
+		"years": {
+			"2015": {
+				"date": "9 December 2015",
+				"link": "https://www.facebook.com/photo.php?fbid=996878417030254",
+				"location": "Connexion Bangsar",
+				"prize_pool": "15000"
+			},
+			"2016": {
+				"date": "22 November 2016",
+				"link": "https://www.facebook.com/photo.php?fbid=1240259029358857",
+				"location": "Connexion Bangsar",
+				"prize_pool": "6000"
+			},
+			"2017": {
+				"date": "21 November 2017",
+				"link": "https://www.facebook.com/story.php?story_fbid=1626954970689259&id=100064725964802",
+				"location": "Connexion Bangsar",
+				"prize_pool": "7000",
+				"winners": [
+					"EternalBlue",
+					"MS10-061",
+					"hashcow"
+				]
+			},
+			"2018": {
+				"date": "28 November 2018",
+				"link": "https://www.facebook.com/100064725964802/posts/2078142802237138/",
+				"location": "Connexion Bangsar",
+				"prize_pool": "6000",
+				"winners": [
+					"AleJnd",
+					"hashcow",
+					"An Unexpected Journey"
+				]
+			},
+			"2019": {
+				"date": "25 September 2019",
+				"link": "https://www.digitalnewsasia.com/digital-economy/kpmg-cyber-challenge-2019-tests-undergrads-real-business-case-scenarios",
+				"location": "One World Hotel",
+				"prize_pool": "6000",
+				"winners": [
+					"_SKR",
+					"Dcypher",
+					"thos_guys_again"
+				],
+				"writeups": [
+					"https://infosecwriteups.com/my-first-ctf-writeup-kpmg-cyber-security-challenge-2019-a42a64db04d8"
+				]
+			}
+		}
+	},
+	{
+		"name": "F-Secure",
+		"url": "https://web.archive.org/web/20190122151001/http://www.cyberheroes.my/",
+		"years": {
+			"2015": {
+				"link": "https://www.tarc.edu.my/news.jsp?cat_id=56EBCDAD-D3D4-4D3B-8AC4-44CAF115AE1E&fmenuid=63470210-0077-4156-8326-47DE252878A7&news_id=707361F5-1049-46D3-8641-7C045474F775",
+				"location": "Nexus Bangsar South",
+				"prize_pool": "15000"
+			},
+			"2016": {
+				"date": "14 April 2016",
+				"link": "https://apu.edu.my/news/apu-students-championed-f-secure-it-security-competition-malaysia-2016",
+				"location": "Nexus Bangsar South"
+			},
+			"2017": {
+				"date": "17 March 2017",
+				"link": "https://news.utar.edu.my/awards/2017/28/28.html",
+				"location": "Capri by Fraser @ Bangsar South"
+			},
+			"2018": {
+				"date": "25 April 2018",
+				"link": "https://www.facebook.com/media/set/?set=a.613914492288925&type=3",
+				"location": "Bangsar South"
+			},
+			"2020": {
+				"date": "24 June 2020",
+				"link": "https://eduadvisor.my/articles/apu-emerges-as-champion-of-national-f-secure-cyber-security-competition-once-again",
+				"location": "Capri by Fraser @ Bangsar South",
+				"refs": [
+					"https://sites.google.com/tarc.edu.my/focswebsite/achievements/tar-umt-team-wins-third-place-in-cyber-security-competition",
+					"https://eduadvisor.my/articles/apu-emerges-as-champion-of-national-f-secure-cyber-security-competition-once-again"
+				]
+			},
+			"2021": {
+				"date": "15 November 2021",
+				"link": "https://www.businesstoday.com.my/2021/10/15/uitm-wins-f-secure-mdec-cybersecurity-competition-2021/",
+				"location": "Capri by Fraser @ Bangsar South",
+				"refs": [
+					"https://www.businesstoday.com.my/2021/10/15/uitm-wins-f-secure-mdec-cybersecurity-competition-2021/",
+					"https://apu.edu.my/news/top-awards-apu-students-f-secure-mdec-cybersecurity-challenge"
+				],
+				"winners": [
+					"H0j3n",
+					"Spac3Cat"
+				]
+			}
+		}
+	},
+	{
+		"name": "Cyber ​​Heroes",
+		"url": "https://web.archive.org/web/20190122151001/http://www.cyberheroes.my/",
+		"years": {
+			"2017": {
+				"date": "4-5 December 2017",
+				"link": "https://www.nst.com.my/education/2017/12/313846/securing-cyber-security-all-fronts",
+				"location": "UKM Bangi",
+				"prize_pool": "15000",
+				"refs": [
+					"https://www.nst.com.my/education/2017/12/313846/securing-cyber-security-all-fronts",
+					"https://www.ftsm.ukm.edu.my/galeriftsm/Year/2017/l]_Disember/Cyber_Heroes_Competition_2017/",
+					"http://psasir.upm.edu.my/id/eprint/59613/1/Securing%20cyber%20security%20at%20all%20fronts.pdf",
+					"https://www.facebook.com/CyberSecurityMalaysia/posts/chcmy-cyber-heroes-seminar-4-december-2017fakulti-teknologi-dan-sains-maklumat-u/10156024413569040/"
+				],
+				"sponsors": [
+					"CyberSecurity Malaysia",
+					"MCMC",
+					"MDEC",
+					"UKM",
+					"Standard Chartered"
+				]
+			},
+			"2019": {
+				"date": "6-7 March 2019",
+				"link": "https://web.archive.org/web/20191230170754/http://www.cyberheroes.my/",
+				"location": "APU",
+				"prize_pool": "6000",
+				"refs": [
+					"https://news.utar.edu.my/awards/2019/21/21.html"
+				],
+				"sponsors": [
+					"CyberSecurity Malaysia",
+					"APU",
+					"Standard Chartered",
+					"Simetri Teras Niaga",
+					"modul8"
+				],
+				"winners": [
+					"Shellhound",
+					"P@N7H3R@",
+					"GoGoPowerRangers"
+				]
+			}
+		}
+	},
+	{
+		"name": "RawSEC",
+		"url": "https://www.facebook.com/rawsec.my",
+		"years": {
+			"2020": {
+				"date": "19-20 February 2020",
+				"link": "https://www.facebook.com/rawsec.my/posts/pfbid02i5F2kZ7vUWS6D7gP17Rxj5BxR6ouqwrT2STpzX6VvPGZnxK5dgjMfe5qMuKm3k7sl",
+				"location": "Online",
+				"prize_pool": "800",
+				"winners": [
+					"myfared",
+					"hk",
+					"socksys",
+					"Grumpy Unicorn",
+					"ali"
+				],
+				"writeups": [
+					"https://blog.rz.my/2020/02/rawsec-2020-web2-challenge-write-up.html"
+				]
+			},
+			"2023": {
+				"date": "21 October 2023",
+				"link": "https://www.facebook.com/rawsec.my/posts/pfbid0dFzaPZAN4usmdVZF14voFggeJdxSSb8siu8YXx8eQXZRHHE5qQDMLudZg2ex9vNAl",
+				"prize_pool": "4500"
+			},
+			"2024": {
+				"date": "9 March 2024",
+				"link": "https://www.facebook.com/rawsec.my/posts/pfbid0241ETD1tWhaJUz4g87HdGc34jcZt3t5s5FTzu5gdvESpMtZNtzCGZtDgCdr7APVtnl",
+				"prize_pool": "5550",
+				"refs": [
+					"https://cybersec-blog-plzentertext.vercel.app/rentas24-nt"
+				],
+				"winners": [
+					"CH1P1CH4P4",
+					"GPT-111",
+					"S4MB4L"
+				],
+				"writeups": [
+					"https://github.com/warlocksmurf/localctf-writeups/tree/main/rentas2024",
+					"https://github.com/warlocksmurf/localctf-writeups/tree/main/rentasfinal2024",
+					"https://warlocksmurf.github.io/posts/rentasctf2024/",
+					"https://warlocksmurf.github.io/posts/rentasctf2024final/",
+					"https://cybersec-blog-plzentertext.vercel.app/rentas24-wu",
+					"https://github.com/ArifPeycal/ctf-writeups/tree/main/2024/rENTASCTF2024"
+				]
+			},
+			"2025": {
+				"date": "27 October 2025",
+				"link": "https://www.facebook.com/rawsec.my/posts/pfbid0241ETD1tWhaJUz4g87HdGc34jcZt3t5s5FTzu5gdvESpMtZNtzCGZtDgCdr7APVtnl",
+				"prize_pool": "2100",
+				"winners": [
+					"Shawarma Army",
+					"Cyberguards",
+					"M41N2"
+				]
+			}
+		}
+	},
+	{
+		"name": "BOH",
+		"url": "https://www.instagram.com/apu_fsec.ss",
+		"years": {
+			"2021": {
+				"date": "6-7 November 2021",
+				"link": "https://www.instagram.com/p/CUzois9vKSD/",
+				"location": "APU",
+				"prize_pool": "4000",
+				"refs": [
+					"https://apu.edu.my/news/apu-battle-hackers-2021-champion-and-3-teams-top-10"
+				],
+				"sponsors": [
+					"Nexagate",
+					"DERIV",
+					"THREATHOUNDS"
+				],
+				"winners": [
+					"Spac3Cat",
+					"H0j3n",
+					"Cyberx",
+					"SKR",
+					"Sheesh"
+				],
+				"writeups": [
+					"https://github.com/warlocksmurf/localctf-writeups/tree/main/boh2023"
+				]
+			},
+			"2022": {
+				"date": "27 October 2022",
+				"link": "https://web.archive.org/web/20240707124835/https://www.apu.edu.my/media/news/2747",
+				"location": "APU",
+				"prize_pool": "4000",
+				"sponsors": [
+					"AWS",
+					"EC-council",
+					"Standard Chartered",
+					"SecureKi",
+					"Firmus",
+					"Across Verticals"
+				],
+				"winners": [
+					"A1ph4_Sh4rk",
+					"Spac3Cat",
+					"Pengg0damn"
+				]
+			},
+			"2023": {
+				"date": "2 December 2023",
+				"link": "https://apu.edu.my/news/asean-battle-hackers-aboh-2023-triumphs-transformations-and-cybersecurity-champions",
+				"location": "APU",
+				"prize_pool": "15190",
+				"sponsors": [
+					"EC-council",
+					"Wissen",
+					"AirAsia",
+					"MDEC",
+					"NOH4TS",
+					"PWC",
+					"AWS"
+				],
+				"writeups": [
+					"https://vicevirus.github.io/posts/apu-boh-web-2023/",
+					"https://warlocksmurf.github.io/posts/bohctf2023/",
+					"https://cybersec-blog-plzentertext.vercel.app/aboh23-osint",
+					"https://github.com/ArifPeycal/ABOH2023"
+				]
+			},
+			"2024": {
+				"date": "28 September 2024",
+				"link": "https://www.instagram.com/reel/C_Pk9HGvHXb/",
+				"location": "APU",
+				"prize_pool": "22300",
+				"refs": [
+					"https://cybersec-blog-plzentertext.vercel.app/iboh24-shikanokonokonokokoshitantan"
+				],
+				"sponsors": [
+					"Paynet",
+					"MDEC",
+					"Ant International",
+					"Nexagate",
+					"MoneyLion",
+					"ASK Pentest",
+					"NOH4TS"
+				],
+				"writeups": [
+					"https://vicevirus.github.io/posts/iboh-2024-writeup/",
+					"https://warlocksmurf.github.io/posts/ibohctf2024/"
+				]
+			},
+			"2025": {
+				"date": "8 November 2025",
+				"link": "https://www.linkedin.com/posts/iboh2025-battleofhackers-ctf-ugcPost-7376074553493614592-yItQ",
+				"location": "APU",
+				"prize_pool": "26963",
+				"sponsors": [
+					"AWS",
+					"CREST",
+					"Zus Coffee",
+					"GoodMorning",
+					"NOH4TS",
+					"Malaysia Digital",
+					"CyberSecurity Malaysia",
+					"ASK Pentest",
+					"Kaspersky"
+				]
+			}
+		}
+	},
+	{
+		"name": "3108",
+		"url": "https://www.facebook.com/bahterasiber/",
+		"years": {
+			"2022": {
+				"date": "26-28 August 2022",
+				"link": "https://web.archive.org/web/20220820080110/https://ctf.bahterasiber.my/",
+				"location": "Online",
+				"sponsors": [
+					"RE:HACK"
+				],
+				"winners": [
+					"cr0wnz",
+					"gh0stb0y",
+					"dugisan3rd"
+				]
+			},
+			"2023": {
+				"date": "26-28 August 2023",
+				"link": "https://github.com/OP-dash/BahteraSiber2023",
+				"location": "Online",
+				"prize_pool": "500",
+				"sponsors": [
+					"RE:HACK"
+				],
+				"winners": [
+					"penyu",
+					"h0shi",
+					"TFS"
+				],
+				"writeups": [
+					"https://github.com/OP-dash/BahteraSiber2023"
+				]
+			},
+			"2024": {
+				"date": "30 August 2024",
+				"link": "https://x.com/_rectifyq/status/1826623439102509266",
+				"location": "Online",
+				"prize_pool": "1000",
+				"sponsors": [
+					"Yayasan Digital Malaysia",
+					"RawSEC",
+					"ASK Pentest",
+					"0DAY",
+					"RC.MY"
+				],
+				"winners": [
+					"username",
+					"OSINTGOD96",
+					"SUPERCASUALPLAYER"
+				],
+				"writeups": [
+					"https://medium.com/@T0pN0xch/bahtera-siber-3108-ctf-2024-writeup-part-1-web-osint-eba3f127c919",
+					"https://medium.com/@T0pN0xch/bahtera-siber-3108-ctf-2024-writeup-part-2-network-linux-reverse-engineering-59ae02b8aed3",
+					"https://medium.com/@T0pN0xch/bahtera-siber-3108-ctf-2024-writeup-part-3-forensic-a7ad66c2774a",
+					"https://medium.com/@T0pN0xch/bahtera-siber-3108-ctf-2024-writeup-part-4-cryptography-misc-65cbce42d830",
+					"https://medium.com/@rectifyq/3108-bahtera-siber-capture-the-flag-ctf-draft-ca1be1751665",
+					"https://cybersec-blog-plzentertext.vercel.app/3108ctf24",
+					"https://b3nkyou.gitlab.io/posts/3108-ctf/",
+					"https://github.com/oxygen28/CTF/tree/279b01d3d6697722c3470d12a2131237ecd5c1c0/3108%20CTF%20Kembara%20Tuah",
+					"https://cybersec-blog-plzentertext.vercel.app/3108ctf24",
+					"https://github.com/ArifPeycal/ctf-writeups/tree/main/2024/3108CTF2024"
+				]
+			},
+			"2025": {
+				"date": "30 August 2025",
+				"link": "https://x.com/bahterasiber/status/1962718798374674785",
+				"location": "Online",
+				"prize_pool": "1500",
+				"sponsors": [
+					"MCCA",
+					"MCT",
+					"ASK Pentest"
+				],
+				"winners": [
+					"m3r4hmUb4r4",
+					"abutheone",
+					"usernamejr"
+				],
+				"writeups": [
+					"https://medium.com/@sonicmuaz/write-up-ctf-bahtera-siber-2fac3cdbc124",
+					"https://github.com/ArifPeycal/ctf-writeups/tree/main/2025/3108CTF"
+				]
+			}
+		}
+	},
+	{
+		"name": "Curtin",
+		"url": "https://curtin.edu.my/event/capture-the-flag/",
+		"years": {
+			"2023": {
+				"date": "14-15 October 2023",
+				"link": "https://web.archive.org/web/20240707121347/https://ctf2023.curtin.edu.my/",
+				"location": "Online",
+				"prize_pool": "6000",
+				"sponsors": [
+					"sains"
+				],
+				"winners": [
+					"scap3G04T",
+					"GPT 100",
+					"SpectreX",
+					"Gajah Duduk",
+					"0x94fbr"
+				]
+			},
+			"2024": {
+				"date": "14-15 October 2024",
+				"link": "https://news.curtin.edu.my/news/curtin-malaysia-ctf-hackathon-2024-unveils-top-cybersecurity-talents/",
+				"location": "Online",
+				"prize_pool": "7500",
+				"winners": [
+					"Din Tai Fung Slayer",
+					"UniKL MIIT",
+					"Squad Buster"
+				]
+			},
+			"2025": {
+				"date": "6-7 December 2025",
+				"link": "https://web.archive.org/web/20251222083657/https://curtin.edu.my/event/capture-the-flag/",
+				"location": "Online",
+				"prize_pool": "6000",
+				"sponsors": [
+					"sains"
+				],
+				"winners": [
+					"flag/abuser",
+					"ChowFan",
+					"TungS4hur",
+					"B1ngChilling",
+					"Balai Polis"
+				]
+			}
+		}
+	},
+	{
+		"name": "CYDES",
+		"url": "https://cydes.my/",
+		"years": {
+			"2023": {
+				"date": "10 July 2023",
+				"link": "https://www.bernama.com/en/general/news.php?id=2205221",
+				"location": "MITEC",
+				"prize_pool": "27000",
+				"refs": [
+					"https://cybersec-blog-plzentertext.vercel.app/cydes23-rootpwners",
+					"https://www.bernama.com/en/general/news.php?id=2205221",
+					"https://www.scribd.com/document/663691165/CYDES-2023-OPOE-V53-09072023",
+					"https://thesun.my/news/juara-cydes-cyber-warzone-akan-wakili-malaysia-ke-cyber-sea-games-2023-nd11211693/"
+				],
+				"sponsors": [
+					"Sapura",
+					"Velum Labs"
+				],
+				"winners": [
+					"RootPwners"
+				]
+			},
+			"2025": {
+				"date": "2 July 2025",
+				"link": "https://www.linkedin.com/posts/badgetobreach-ics-ctf-share-7332686019579781120-JLJD/",
+				"location": "PICC",
+				"prize_pool": "10000",
+				"sponsors": [
+					"Velum Labs"
+				],
+				"winners": [
+					"MeowneyLion",
+					"Pleaiades",
+					"Formal Sweatpants",
+					"C0ughinb4by",
+					"The Ryt Way"
+				],
+				"writeups": [
+					"https://vicevirus.github.io/posts/cydes-2025-writeup/",
+					"https://warlocksmurf.github.io/posts/cydesctf2025/"
+				]
+			}
+		}
+	},
+	{
+		"name": "APSEC",
+		"url": "https://web.archive.org/web/20230516172125/https://apsec2023.com/",
+		"years": {
+			"2023": {
+				"date": "20 May 2023",
+				"link": "https://web.archive.org/web/20231210104048/https://apsec2023.com/apcyberchallenge2023/",
+				"location": "Online",
+				"prize_pool": "9000",
+				"refs": [
+					"https://web.archive.org/web/20231210104048/https://apsec2023.com/apcyberchallenge2023/",
+					"https://www.youtube.com/watch?v=4tBmu3M7LfI",
+					"https://www.linkedin.com/feed/update/urn:li:share:7053556683586875392/",
+					"https://aseantechsec.com/asia-pacific-cyberattack-response-challenge-2023/",
+					"https://www.facebook.com/JTDISABAH/videos/2052023-video-semasa-pertandingan-asia-pacific-cyberattack-response-challenge-20/1379004729623606/"
+				]
+			}
+		}
+	},
+	{
+		"name": "GiCTF",
+		"url": "https://girls-in-ctf.online/",
+		"years": {
+			"2023": {
+				"date": "December 2023",
+				"link": "https://girls-in-ctf.online/2023",
+				"location": "Online",
+				"sponsors": [
+					"Petronas"
+				],
+				"writeups": [
+					"https://cybersec-blog-plzentertext.vercel.app/gctf23-ctrlf",
+					"https://hannrul.medium.com/gctf-2023-write-up-8b24614fada7"
+				]
+			},
+			"2024": {
+				"date": "October 2024",
+				"link": "https://girls-in-ctf.online/2024",
+				"location": "Online",
+				"winners": [
+					"L4tJ1u_P4nM33",
+					"L4tJ1u_Encient",
+					"L4tJ1u_Jin_07",
+					"Anonymous_wanyin",
+					"Anonymous_Zen"
+				],
+				"writeups": [
+					"https://github.com/rehackxyz/REUN10N/tree/main/CTF-writeups/2024/Girls-in-CTF/writeups",
+					"https://lilacj4de.gitbook.io/lilas-space/ctf-stuff/girls-in-ctf-2024"
+				]
+			},
+			"2025": {
+				"date": "September 2025",
+				"link": "https://girls-in-ctf.online/2025",
+				"location": "Online",
+				"prize_pool": "600",
+				"winners": [
+					"bobofish",
+					"Mydei's D0gs",
+					"KucingHitam",
+					"abstract",
+					"idunnoalsoleh"
+				],
+				"writeups": [
+					"https://lilacj4de.gitbook.io/lilas-space/ctf-stuff/girls-in-ctf-2025"
+				]
+			},
+			"2026": {
+				"date": "October 2026",
+				"link": "https://girls-in-ctf.online/2026",
+				"location": "Online"
+			}
+		}
+	},
+	{
+		"name": "CyberHunt",
+		"url": "https://news.utar.edu.my/news/2023/July/25/01/01.html",
+		"years": {
+			"2023": {
+				"date": "22 July 2023",
+				"link": "https://news.utar.edu.my/news/2023/July/25/01/01.html",
+				"location": "UTAR Kampar",
+				"prize_pool": "2250",
+				"refs": [
+					"https://news.utar.edu.my/news/2023/July/25/01/01.html"
+				],
+				"sponsors": [
+					"Hilti",
+					"LGMS",
+					"iPay88"
+				],
+				"winners": [
+					"POPO",
+					"GPT 11",
+					"Darksid3rs",
+					"robIOx"
+				]
+			},
+			"2024": {
+				"date": "20 July 2024",
+				"link": "https://news.utar.edu.my/news/2024/July/30/02/02.html",
+				"location": "UTAR Kampar",
+				"prize_pool": "2500",
+				"refs": [
+					"https://news.utar.edu.my/news/2024/July/30/02/02.html",
+					"https://focs.tarc.edu.my/achievements/tarumt-shines-at-the-amazing-cyberhunt-2024"
+				],
+				"sponsors": [
+					"LGMS"
+				],
+				"winners": [
+					"RE:UN1ON Jr",
+					"A1ph4_Sh4rk!",
+					"SkibidiFood",
+					"GPT-1001"
+				]
+			},
+			"2026": {
+				"date": "18 July 2026",
+				"link": "https://cyberhuntutar.wixsite.com/ctf2026",
+				"location": "UTAR Kampar",
+				"prize_pool": "2500",
+				"refs": [
+					"https://www.facebook.com/utardsaperak/posts/-utar-fict-3rd-intervarsity-ctf-challenge-2026-is-here-register-your-team-nowdea/1289870436652159/",
+					"https://cyberhuntutar.wixsite.com/ctf2026"
+				],
+				"sponsors": [
+					"OpenSys"
+				]
+			}
+		}
+	},
+	{
+		"name": "Siber Siaga",
+		"url": "https://mindmatics.my/siber-siaga-capture-the-flag-code-combat/",
+		"years": {
+			"2023": {
+				"date": "14-16 August 2023",
+				"link": "https://caas.apu.edu.my/page10.html",
+				"location": "KLCC",
+				"refs": [
+					"https://www.facebook.com/lgms.global/posts/15-17-aug-2023-sibersiaga-capture-the-flag-code-combat-cyberdsa-2023competition-/766596925473900/",
+					"https://www.apu.edu.my/news/cyberspace-defence-success-apu-cybersecurity-teams-siber-siaga-ctfs-code-combat-2023",
+					"https://www.linkedin.com/posts/netbytesec-ctf-capturetheflag-ugcPost-7098289974445293569-qqkV/"
+				],
+				"sponsors": [
+					"LGMS",
+					"Velum Labs",
+					"NetByteSec",
+					"TM"
+				],
+				"winners": [
+					"trailblazers",
+					"Nuts"
+				]
+			},
+			"2024": {
+				"date": "6-8 August 2024",
+				"link": "https://www.tiktok.com/@ihackuitm2024",
+				"location": "KLCC",
+				"prize_pool": "21000",
+				"refs": [
+					"https://www.linkedin.com/posts/firdaus-amran_our-team-kena-paksa-from-universiti-selangor-ugcPost-7228044023259611136-0Ilj/"
+				],
+				"sponsors": [
+					"TM",
+					"MDEC",
+					"Prisma Khas"
+				],
+				"winners": [
+					"username - UPNM",
+					"C1C4D4 - UITM",
+					"M53_A1ph4_Sh4rk! - TAR UMT"
+				],
+				"writeups": [
+					"https://vicevirus.github.io/posts/ihack-2024-qual-writeup/",
+					"https://vicevirus.github.io/posts/ihack-2024-semi-final-writeup/",
+					"https://medium.com/@naddygaga/qualification-round-ihack-2024-capture-the-flag-ctf-7e5bd7bbeab3"
+				]
+			},
+			"2025": {
+				"date": "30 September 2025",
+				"link": "https://mindmatics.my/siber-siaga-capture-the-flag-code-combat/",
+				"location": "MITEC, KL",
+				"prize_pool": "14700",
+				"refs": [
+					"https://mindmatics.my/siber-siaga-capture-the-flag-code-combat/",
+					"https://fcvac.unisel.edu.my/tahniah-juara-siber-ciaga-ctf/",
+					"https://www.instagram.com/p/DQ0XL10DRLB/"
+				],
+				"sponsors": [
+					"Mindmatics"
+				],
+				"winners": [
+					"Takde_idea",
+					"GPT-10001",
+					"C0UGH1NGB4BY",
+					"0LDBEES",
+					"C4ltex"
+				]
+			}
+		}
+	},
+	{
+		"name": "SunCTF",
+		"url": "https://www.linkedin.com/company/csc-sunway/posts/?feedView=all",
+		"years": {
+			"2024": "https://github.com/Wowiee3/SunwayCTF-challs",
+			"2025": {
+				"date": "30 August 2025",
+				"link": "https://www.linkedin.com/posts/everyone-we-have-officially-extended-the-share-7356694324220166145--tgA/",
+				"location": "Sunway College",
+				"prize_pool": "18500",
+				"sponsors": [
+					"LGMS",
+					"glocomp",
+					"Sunway",
+					"Hitachi"
+				]
+			},
+			"2026": {
+				"date": "6 September 2026",
+				"link": "https://www.sunwaycybersecurityclub.org/sunctf",
+				"location": "Sunway College",
+				"prize_pool": "20000"
+			}
+		}
+	},
+	{
+		"name": "SherpaCTF",
+		"url": "https://sherpasec.org",
+		"years": {
+			"2024": {
+				"date": "23 November 2024",
+				"link": "https://sherpasec.org/posts/sherpactf24-recap/",
+				"location": "Dell Cyberjaya",
+				"prize_pool": "23000",
+				"sponsors": [
+					"Dell",
+					"div0",
+					"Kotex",
+					"armourzero",
+					"MoneyLion",
+					"PentesterLab",
+					"OffSec",
+					"NOH4TS"
+				],
+				"winners": [
+					"M53_TEABAG",
+					"CYRUSNISM",
+					"CTRL+SHIFT+HACKERS",
+					"SQUAD BUSTER",
+					"IDK",
+					"N3K0_1N_B0X"
+				],
+				"writeups": [
+					"https://qiaonpc.github.io/categories/sherpactf-2024/",
+					"https://github.com/Jigenz/SHERPA-CTF-Write-Up",
+					"https://warlocksmurf.github.io/posts/sherpactf2024/",
+					"https://w0rmhol3.netlify.app/2024/11/26/sherpactf/"
+				]
+			},
+			"2025": {
+				"date": "19-21 November 2025",
+				"link": "https://sherpasec.org/posts/sherpactf25-recap/",
+				"location": "AICB Centre of Excellence, Kuala Lumpur",
+				"prize_pool": "21800",
+				"sponsors": [
+					"div0",
+					"HackingGroup",
+					"SIGNALENS",
+					"CASABA",
+					"Altered Security"
+				],
+				"winners": [
+					"TAN SIN CHEE",
+					"ONG ZI XUAN",
+					"LEONG HAN MING"
+				],
+				"writeups": [
+					"https://qiaonpc.github.io/categories/sherpactf-2025/"
+				]
+			}
+		}
+	},
+	{
+		"name": "NEXSEC",
+		"url": "https://www.apu.edu.my/news/apus-cyber-champs-take-1st-and-2nd-place-intervarsity-cyber-forensics-challenge-2025",
+		"years": {
+			"2025": {
+				"date": "18-19 December 2025",
+				"link": "https://www.linkedin.com/posts/syazwannmarzuki_nexsec2025-ugcPost-7430903105069944832-My-q/",
+				"location": "MCMC, Cyberjaya",
+				"prize_pool": "7500",
+				"refs": [
+					"https://www.linkedin.com/posts/syazwannmarzuki_nexsec2025-ugcPost-7430903105069944832-My-q/",
+					"https://www.apu.edu.my/news/apus-cyber-champs-take-1st-and-2nd-place-intervarsity-cyber-forensics-challenge-2025",
+					"https://www.linkedin.com/posts/yeoyingzhe_nexsec2025-ctf-cybersecurity-ugcPost-7414542261880946688-9s8i/",
+					"https://www.instagram.com/p/DSmL3pdidNm/",
+					"https://www.instagram.com/p/DVhoODej688/",
+					"https://www.linkedin.com/posts/jerit3787_hello-everyone-last-thursday-and-friday-activity-7409140869578055680-s77c"
+				],
+				"winners": [
+					"Bla Bla Bla",
+					"Forgotten",
+					"PERISAI Beta"
+				],
+				"writeups": [
+					"https://ctf.danplace.tech/posts/nexsec-2025-qualifiers/",
+					"https://ctf.danplace.tech/posts/nexsec-2025-grand-finals/"
+				]
+			}
+		}
+	},
+	{
+		"name": "NETSA",
+		"url": "https://www.instagram.com/netsaftmk/",
+		"years": {
+			"2025": {
+				"date": "24 May 2025",
+				"link": "https://reun10n.my/rectf/2025",
+				"location": "UTEM",
+				"prize_pool": "1200",
+				"sponsors": [
+					"RE:HACK",
+					"ASK Pentest"
+				],
+				"winners": [
+					"Sudo rm -rf /",
+					"Anything",
+					"Squad Busters"
+				],
+				"writeups": [
+					"https://medium.com/@ssi51/netsa-ctf-intended-solutions-hardware-ver-f8a02e05f606"
+				]
+			}
+		}
+	},
+	{
+		"name": "BlackBerry",
+		"url": "https://www.linkedin.com/feed/update/urn:li:activity:7326881447170969600/",
+		"years": {
+			"2025": {
+				"date": "8 May 2025",
+				"link": "https://www.linkedin.com/feed/update/urn:li:activity:7326881447170969600/",
+				"location": "BlackBerry CCoE, Cyberjaya",
+				"prize_pool": "1200",
+				"refs": [
+					"https://www.linkedin.com/feed/update/urn:li:activity:7326881447170969600/"
+				],
+				"winners": [
+					"C0UGH1NGB4BY",
+					"GPT-1110",
+					"Bulbasaurus"
+				]
+			}
+		}
+	},
+	{
+		"name": "RE:UN10N",
+		"url": "https://reun10n.my",
+		"years": {
+			"2025": {
+				"date": "27-28 December 2025",
+				"link": "https://reun10n.my/rectf/2025",
+				"location": "Online",
+				"prize_pool": "600",
+				"sponsors": [
+					"RE:HACK",
+					"HackTheBox",
+					"ICE"
+				]
+			},
+			"2026": true
+		}
+	},
+	{
+		"name": "UMCS",
+		"url": "https://umcybersec.site/",
+		"years": {
+			"2025": {
+				"date": "17-18 May 2025",
+				"link": "https://web.archive.org/web/20250715001952/https://umcybersec.site/",
+				"location": "PASUM, Universiti Malaya",
+				"prize_pool": "2400",
+				"sponsors": [
+					"Firmus",
+					"TIME",
+					"Techforte",
+					"Omada",
+					"FSKTM, UM",
+					"ASK Pentest",
+					"Kaspersky"
+				],
+				"winners": [
+					"C0ughinb4by",
+					"Squad Buster",
+					"Formal Sweatpants"
+				],
+				"writeups": [
+					"https://ctf.danplace.tech/posts/umcs-ctf-2025-straightfoward-writeup/",
+					"https://ctf.danplace.tech/posts/umcs-ctf-2025-htppserver-writeup/",
+					"https://ctf.danplace.tech/posts/umcs-ctf-2025-healthcheck-writeup/",
+					"https://medium.com/@erichdryn/umcs-ctf-2025-writeup-2f0963e98dd6",
+					"https://www.studocu.com/my/document/asia-pacific-university-of-technology-and-innovation/practical-ctf-strategies/final-assignment-ctf-competition-write-up-umcs-2025/134982486",
+					"https://medium.com/@T0pN0xch/umcs-ctf-2025-writeup-preliminary-round-17ed7ba04fe0",
+					"https://github.com/Fong20/UMCS-CTF-Preliminary-2025",
+					"https://medium.com/@cherylwoowy/umcs-ctf-hidden-in-plain-graphic-writeup-23417d30eef6",
+					"https://github.com/Jigenz/UM-CTF-Writeup"
+				]
+			},
+			"2026": {
+				"date": "16 May 2026",
+				"link": "https://web.archive.org/web/20260725104528/https://umcybersec.site/",
+				"location": "FSKTM, Universiti Malaya",
+				"prize_pool": "5500",
+				"sponsors": [
+					"LGMS",
+					"VSTECS",
+					"Kaspersky",
+					"Omada",
+					"ASK Pentest"
+				],
+				"winners": [
+					"C0ughinb4by",
+					"Hehe i play ctf",
+					"Please hire us"
+				],
+				"writeups": [
+					"https://zakhwananuar.my/ctf-event.html?ctf=UMCS%20CTF%202026"
+				]
+			}
+		}
+	},
+	{
+		"name": "LIGA",
+		"url": "https://appsecmy.com/pages/liga-ctf-2026",
+		"years": {
+			"2026": {
+				"date": "May 2026",
+				"link": "https://appsecmy.com/pages/liga-ctf-2026",
+				"location": "Online",
+				"prize_pool": "4000",
+				"writeups": [
+					"https://ctf.danplace.tech/posts/liga-ctf-2026-the-ghost-in-the-git/",
+					"https://github.com/danyff37/LIGAOWASPKLCTF-2026"
+				]
+			}
+		}
+	},
+	{
+		"name": "HackNyx",
+		"url": "https://www.instagram.com/gmi.cysec/",
+		"years": {
+			"2026": {
+				"date": "20-21 June 2026",
+				"link": "https://forms.gle/ku6GoZpDW81s5Tky6 ",
+				"location": "Online",
+				"winners": [
+					"letak nama team \"old men\"",
+					"PwnCake",
+					"rickroll",
+					"Unemployed",
+					"aiscendol"
+				],
+				"writeups": [
+					"https://ctf.danplace.tech/posts/hacknyx-ctf-2026-middle-management/",
+					"https://ctf.danplace.tech/posts/hacknyx-ctf-2026-no-slang/",
+					"https://ctf.danplace.tech/posts/hacknyx-ctf-2026-deskmesh/"
+				]
+			}
+		}
+	}
 ]
