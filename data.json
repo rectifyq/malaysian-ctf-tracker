@@ -1066,6 +1066,9 @@
 					"Shawarma Army",
 					"Cyberguards",
 					"M41N2"
+				],
+                "writeups": [
+                    "https://shreethaar.github.io/ctf-writeups/writeups/2024/ibohctf2024/"
 				]
 			}
 		}
@@ -1157,7 +1160,8 @@
 				],
 				"writeups": [
 					"https://vicevirus.github.io/posts/iboh-2024-writeup/",
-					"https://warlocksmurf.github.io/posts/ibohctf2024/"
+					"https://warlocksmurf.github.io/posts/ibohctf2024/",
+                    "https://shreethaar.github.io/ctf-writeups/writeups/2024/ibohctf2024/"
 				]
 			},
 			"2025": {
@@ -1175,7 +1179,10 @@
 					"CyberSecurity Malaysia",
 					"ASK Pentest",
 					"Kaspersky"
-				]
+				],
+                "writeups": [
+                    "https://shreethaar.github.io/ctf-writeups/writeups/2025/iBOH/"
+                ]
 			}
 		}
 	},
@@ -1240,7 +1247,8 @@
 					"https://b3nkyou.gitlab.io/posts/3108-ctf/",
 					"https://github.com/oxygen28/CTF/tree/279b01d3d6697722c3470d12a2131237ecd5c1c0/3108%20CTF%20Kembara%20Tuah",
 					"https://cybersec-blog-plzentertext.vercel.app/3108ctf24",
-					"https://github.com/ArifPeycal/ctf-writeups/tree/main/2024/3108CTF2024"
+					"https://github.com/ArifPeycal/ctf-writeups/tree/main/2024/3108CTF2024",
+                    "https://shreethaar.github.io/ctf-writeups/writeups/2024/3108CTF/"
 				]
 			},
 			"2025": {
