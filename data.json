@@ -1270,6 +1270,19 @@
 					"https://medium.com/@sonicmuaz/write-up-ctf-bahtera-siber-2fac3cdbc124",
 					"https://github.com/ArifPeycal/ctf-writeups/tree/main/2025/3108CTF"
 				]
+			},
+			"2026": {
+				"date": "29 August 2026",
+				"link": "https://www.linkedin.com/posts/bahteradigitech_3108ctf-bahterasiber3108-ctf-activity-7495714309696573440-wIWe",
+				"location": "Online",
+				"sponsors": [
+					"MCCA",
+					"ASK Pentest",
+					"MCCO"
+				],
+				"refs": [
+					"https://www.linkedin.com/posts/bahteradigitech_3108ctf-bahterasiber3108-ctf-activity-7495714309696573440-wIWe"
+				]
 			}
 		}
 	},
