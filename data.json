@@ -1187,9 +1187,20 @@
 		}
 	},
 	{
-		"name": "3108",
-		"url": "https://www.facebook.com/bahterasiber/",
+		"name": "3108 Bahtera Siber",
+		"url": "https://bahterasiber.my/",
 		"years": {
+			"2021": {
+				"date": "31 August 2021",
+				"link": "https://bahterasiber.my/",
+				"location": "Online",
+				"prize_pool": "0",
+				"winners": [
+					"0x0verflow",
+					"ShahrulHalim",
+					"Aiman"
+				]
+			},
 			"2022": {
 				"date": "26-28 August 2022",
 				"link": "https://web.archive.org/web/20220820080110/https://ctf.bahterasiber.my/",
@@ -1199,8 +1210,8 @@
 				],
 				"winners": [
 					"cr0wnz",
-					"gh0stb0y",
-					"dugisan3rd"
+					"Tzion",
+					"zx"
 				]
 			},
 			"2023": {
@@ -1209,11 +1220,20 @@
 				"location": "Online",
 				"prize_pool": "500",
 				"sponsors": [
-					"RE:HACK"
+					"Yayasan Digital Malaysia",
+					"RE:HACK",
+					"Tenang Komuniti Sdn Bhd",
+					"ASK Pentest",
+					"SCAMGATE",
+					"Hibiscus Lab",
+					"SKR CTF",
+					"SherpaSec",
+					"Diaphannan",
+					"Fuse Digital Creative Media"
 				],
 				"winners": [
 					"penyu",
-					"h0shi",
+					"h0shi (MUHAMMAD ZAIM)",
 					"TFS"
 				],
 				"writeups": [
@@ -1221,7 +1241,7 @@
 				]
 			},
 			"2024": {
-				"date": "30 August 2024",
+				"date": "30-31 August 2024",
 				"link": "https://x.com/_rectifyq/status/1826623439102509266",
 				"location": "Online",
 				"prize_pool": "1000",
@@ -1230,12 +1250,13 @@
 					"RawSEC",
 					"ASK Pentest",
 					"0DAY",
-					"RC.MY"
+					"Malaysia Cyber Tech",
+					"Tenang Komuniti Sdn Bhd"
 				],
 				"winners": [
 					"username",
-					"OSINTGOD96",
-					"SUPERCASUALPLAYER"
+					"osint god69",
+					"supercasualplayer"
 				],
 				"writeups": [
 					"https://medium.com/@T0pN0xch/bahtera-siber-3108-ctf-2024-writeup-part-1-web-osint-eba3f127c919",
@@ -1252,14 +1273,15 @@
 				]
 			},
 			"2025": {
-				"date": "30 August 2025",
+				"date": "29-30 August 2025",
 				"link": "https://x.com/bahterasiber/status/1962718798374674785",
 				"location": "Online",
 				"prize_pool": "1500",
 				"sponsors": [
 					"MCCA",
-					"MCT",
-					"ASK Pentest"
+					"Malaysia Cyber Tech",
+					"ASK Pentest",
+					"Tenang Komuniti Sdn Bhd"
 				],
 				"winners": [
 					"m3r4hmUb4r4",
@@ -1278,7 +1300,8 @@
 				"sponsors": [
 					"MCCA",
 					"ASK Pentest",
-					"MCCO"
+					"MCCO",
+					"Tenang Komuniti Sdn Bhd"
 				],
 				"refs": [
 					"https://www.linkedin.com/posts/bahteradigitech_3108ctf-bahterasiber3108-ctf-activity-7495714309696573440-wIWe"
