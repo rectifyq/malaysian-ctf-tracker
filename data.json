@@ -373,9 +373,12 @@
 				]
 			},
 			"2026": {
-				"date": "7-8 October 2026",
+				"date": "17-18 November 2026",
 				"link": "https://awan.uitm.edu.my/ihack/",
-				"location": "UiTM Shah Alam",
+				"location": "Dewan Mawar Qaseh, UiTM Shah Alam",
+				"refs": [
+					"https://awan.uitm.edu.my/ihack/"
+				],
 				"sponsors": [
 					"Velum Labs",
 					"ECLogic",
@@ -476,7 +479,14 @@
 				"location": "UniKL MIIT",
 				"prize_pool": "3000",
 				"refs": [
-					"https://www.linkedin.com/posts/uniklmiitcssc_are-you-ready-to-prove-your-hacking-skills-activity-7393544558132961280-F5nN"
+					"https://www.linkedin.com/posts/uniklmiitcssc_are-you-ready-to-prove-your-hacking-skills-activity-7393544558132961280-F5nN",
+					"https://apu.edu.my/node/2849",
+					"https://cybercamp.pages.dev/news/2025/december.html"
+				],
+				"winners": [
+					"Os1risInterns - APU",
+					"WangZheRongYao - APU",
+					"Ud4ng2St3p - UniKL MIIT"
 				],
 				"writeups": [
 					"https://docs.google.com/document/d/1T79Isde3oDsw7MLBTRVi5SOC5ZjINFUYGtcugZKWUAo/edit?tab=t.0",
@@ -1067,8 +1077,8 @@
 					"Cyberguards",
 					"M41N2"
 				],
-                "writeups": [
-                    "https://shreethaar.github.io/ctf-writeups/writeups/2024/ibohctf2024/"
+				"writeups": [
+					"https://shreethaar.github.io/ctf-writeups/writeups/2024/ibohctf2024/"
 				]
 			}
 		}
@@ -1161,14 +1171,18 @@
 				"writeups": [
 					"https://vicevirus.github.io/posts/iboh-2024-writeup/",
 					"https://warlocksmurf.github.io/posts/ibohctf2024/",
-                    "https://shreethaar.github.io/ctf-writeups/writeups/2024/ibohctf2024/"
+					"https://shreethaar.github.io/ctf-writeups/writeups/2024/ibohctf2024/"
 				]
 			},
 			"2025": {
-				"date": "8 November 2025",
+				"date": "29 November 2025",
 				"link": "https://www.linkedin.com/posts/iboh2025-battleofhackers-ctf-ugcPost-7376074553493614592-yItQ",
 				"location": "APU",
 				"prize_pool": "26963",
+				"refs": [
+					"https://www.apu.edu.my/news/iboh-2025-stage-two-attack-and-defence-new-arena-brightest-cyber-minds",
+					"https://xpress.unikl.edu.my/miitchampioniboh/"
+				],
 				"sponsors": [
 					"AWS",
 					"CREST",
@@ -1180,9 +1194,23 @@
 					"ASK Pentest",
 					"Kaspersky"
 				],
-                "writeups": [
-                    "https://shreethaar.github.io/ctf-writeups/writeups/2025/iBOH/"
-                ]
+				"winners": [
+					"SN33Z1NGB4BY - UniKL MIIT",
+					"T3ST1NG - APU",
+					"Hookien-mee-is-Bred - APU"
+				],
+				"writeups": [
+					"https://shreethaar.github.io/ctf-writeups/writeups/2025/iBOH/"
+				]
+			},
+			"2026": {
+				"date": "14 November 2026",
+				"link": "https://battleofhackers.com/",
+				"location": "APU",
+				"prize_pool": "40600",
+				"refs": [
+					"https://battleofhackers.com/"
+				]
 			}
 		}
 	},
@@ -1269,7 +1297,7 @@
 					"https://github.com/oxygen28/CTF/tree/279b01d3d6697722c3470d12a2131237ecd5c1c0/3108%20CTF%20Kembara%20Tuah",
 					"https://cybersec-blog-plzentertext.vercel.app/3108ctf24",
 					"https://github.com/ArifPeycal/ctf-writeups/tree/main/2024/3108CTF2024",
-                    "https://shreethaar.github.io/ctf-writeups/writeups/2024/3108CTF/"
+					"https://shreethaar.github.io/ctf-writeups/writeups/2024/3108CTF/"
 				]
 			},
 			"2025": {
@@ -1633,8 +1661,23 @@
 			"2026": {
 				"date": "6 September 2026",
 				"link": "https://www.sunwaycybersecurityclub.org/sunctf",
-				"location": "Sunway College",
-				"prize_pool": "20000"
+				"location": "Sir Jeffrey Cheah Hall, Sunway College",
+				"prize_pool": "20000",
+				"refs": [
+					"https://www.apu.edu.my/news/apu-cyber-contingent-sweeps-sunctf-2026-podium",
+					"https://ctftime.org/event/3389/",
+					"https://sunwayuniversity.edu.my/news/2026/sunctf-2026"
+				],
+				"sponsors": [
+					"LGMS",
+					"Glocomp System",
+					"FIRMUS"
+				],
+				"winners": [
+					"ABC",
+					"little shark",
+					"Sigma"
+				]
 			}
 		}
 	},
@@ -1720,6 +1763,14 @@
 				"writeups": [
 					"https://ctf.danplace.tech/posts/nexsec-2025-qualifiers/",
 					"https://ctf.danplace.tech/posts/nexsec-2025-grand-finals/"
+				]
+			},
+			"2026": {
+				"date": "October 2026",
+				"link": "https://github.com/jacksonloh023/NEXSEC-CTF-2026-Writeups-GitHub",
+				"writeups": [
+					"https://github.com/jacksonloh023/NEXSEC-CTF-2026-Writeups-GitHub",
+					"https://github.com/klasyyi/writeup-nexsec2026"
 				]
 			}
 		}

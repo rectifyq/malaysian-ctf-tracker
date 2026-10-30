@@ -1,0 +1,10 @@
+# Repo-only files: never upload these as public site assets
+README.md
+LICENSE
+.git*
+.assetsignore
+wrangler.*
+.wrangler
+.dev.vars*
+.env*
+node_modules
